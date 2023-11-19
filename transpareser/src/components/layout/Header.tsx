@@ -1,11 +1,12 @@
 "use client"
 
 import Link from "next/link";
-import Headroom from 'react-headroom';
+import Headroom from "react-headroom";
+
 const Header = () => {
   return (
     <Headroom>
-    <header className="w-full top-0 bg-opacity-95 bg-transparent">
+    <header className="w-full top-0 bg-opacity-95 bg-black">
     <nav className="w-full mx-auto flex items-center justify-center">
         <ul className="flex items-center gap-4 md:gap-7">
           <li>
@@ -45,7 +46,7 @@ const Header = () => {
           </li>
         </ul>    
     </nav>
-    <div className="bg-black w-full h-[5px]"></div>  
+    <div className="bg-white w-full h-[5px]"></div>  
     </header>
     </Headroom>
   );
