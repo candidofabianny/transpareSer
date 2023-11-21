@@ -9,13 +9,19 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        voigante:["--font-voigante"]
+        voigante:["--font-voigante"],
+        lovingambros:["--font-loving-ambros"],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        bordo: "#971E1E",
+        stickyblack: "#181515",
+        protonred: "#8c0606",
+      }
     },
   },
   plugins: [],
