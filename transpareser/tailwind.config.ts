@@ -9,20 +9,20 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        rosarivo:["--rosarivo"],
+        andisignature:["andi-signature"],
         voigante:["--font-voigante"],
         lovingambros:["--font-loving-ambros"],
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        athenevoyage:["--font-athene-voyage"],
+        autography:["--font-autography"],
+        galabiyah:["--font-galabiyah"]
       },
       colors: {
         bordo: "#971E1E",
         stickyblack: "#181515",
         protonred: "#8c0606",
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require('tailwindcss-animated')],
 }

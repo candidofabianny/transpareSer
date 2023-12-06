@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
-import { voigante, lovingambros} from "../assets/fonts/fonts"
 import { Rosarivo } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
-
 
 const rosarivo = Rosarivo({ subsets: ["latin"],
 display: "swap",
@@ -24,8 +22,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${rosarivo.className} ${voigante.className} ${lovingambros.className}`}>
-        <body className="font-rosarivo">
+      className={`${rosarivo.className}`}>
+        <body>
           <Header />
           {children}
         </body>

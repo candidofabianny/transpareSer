@@ -1,5 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
+import Banner from "./Banner";
+import Produtos from "./Produtos";
 
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
       <section className="w-full flex flex-col items-center">
       <link rel="shortcut icon" href="./assets/icons/logoaba.png" type="image/x-icon"></link>
         <Hero />
+        <Banner />
+        <Produtos />
       </section>
      </>
   );
