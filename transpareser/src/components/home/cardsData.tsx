@@ -1,4 +1,5 @@
-import Monica from "C:/Users/Home/transpareSer/transpareser/src/assets/images/home/menuig.png"
+import Link from "next/link"
+import Monica from "C:/Users/Home/transpareSer/transpareser/src/assets/images/home/teste.png"
 
 const cardsData = [
     {
@@ -12,26 +13,14 @@ const cardsData = [
       name: "Mônica Silveira",
       text: "Professora de educação infantil",
       image: Monica,
+      href: "/teste"
     },
     {
       id: 3,
       name: "Valdineia Ribeiro",
       text: "Professora de Educação Infantil",
       image: Monica,
-    },
-    {
-        id: 4,
-        name: "Yasmin Rodrigues",
-        text: "Professora de Educação Infantil",
-        image: Monica,
-      },
-    {
-      id: 5,
-      name: "Fabianny Candido",
-      text: "Desenvolvedora de softaware e designer",
-      image: Monica,
-    },
-    
+    },   
   ];
   
   export default cardsData;
