@@ -1,48 +1,42 @@
 "use client";
 
-import cardsData from "./cardsData";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination, Autoplay, Navigation} from "swiper/modules";
-import 'swiper/css/bundle';
 import { athenevoyage, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
 import Link from "next/link";
 import Image from "next/image";
-import imgtest from "C:/Users/candi/transpareSer/transpareser/src/assets/images/home/teste.png"
+import imgtest from "/src/assets/images/home/teste.png"
 
 const Produtos = () => {
     return (
         <section id="produtos" 
         className="bg-[url('../assets/images/home/productbg.png')]  flex flex-col items-center justify-center w-full">   
         <div className={`${athenevoyage.className}`}>
-        <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] py-12">
+        <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] pt-12 pb-4">
           Produtos
         </h1></div>
-        <div className="w-full">
-        <div className="carousel carousel-center max-w-xxl p-4 space-x-4">
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" className="rounded-box" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="rounded-box" />
-  </div>
-</div>
-        </div>       
+        <div className="flex justify-center items-center w-full">
+        <div className="carousel carousel-center max-w-xxl p-4 space-x-10 m:space-x-8">
+        <div className="flex flex-col justify-center items-center carousel-item">
+        <a href="#">
+          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
+          </a>
+          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center">texto sobre teste teste teste fnciona</p>
+        </div> 
+        <div className="flex flex-col justify-center items-center carousel-item">
+        <a href="#">
+          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
+          </a>
+          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center">text sobre textotexto oxto sobre</p>
+        </div> 
+        <div className="flex flex-col justify-center items-center carousel-item">
+        <a href="#">
+          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
+          </a>
+          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center">texto textotextotexto sobre</p>
+        </div> 
+       </div>
+        </div> 
+       
       </section>
     );
 
