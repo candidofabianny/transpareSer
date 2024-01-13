@@ -15,24 +15,24 @@ const Produtos = () => {
           Produtos
         </h1></div>
         <div className="flex justify-center items-center w-full">
-        <div className="carousel carousel-center max-w-xxl p-4 space-x-10 m:space-x-8">
+        <div className="carousel carousel-center max-w-xxl p-4 lg:space-x-16 space-x-8">
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
           </a>
-          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center">texto sobre teste teste teste fnciona</p>
+          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center pb-4">texto sobre teste xto texxto texxto texxto texxto texteste teste fnciona</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
           </a>
-          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center">text sobre textotexto oxto sobre</p>
+          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center pb-4">text sobre xto texxto texxto texxto textextotexto oxto sobre</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
           </a>
-          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center">texto textotextotexto sobre</p>
+          <p className="text-white pt-6 text-[1.4rem] md:text-[1.25rem] max-w-[200px] text-center pb-4">texto xto texxto texxto texxto textextotextotexto sobre</p>
         </div> 
        </div>
         </div> 

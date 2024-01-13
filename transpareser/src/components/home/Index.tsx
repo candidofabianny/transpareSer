@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import Banner from "./Banner";
 import Produtos from "./Produtos";
+import Galeria from "./Galeria";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Hero />
         <Banner />
         <Produtos />
+        <Galeria />
       </section>
      </>
   );
