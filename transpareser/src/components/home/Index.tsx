@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Banner from "./Banner";
 import Produtos from "./Produtos";
 import Galeria from "./Galeria";
-
+import Novidades from "./Novidades";
 
 const Home = () => {
    return (
@@ -14,6 +14,7 @@ const Home = () => {
         <Banner />
         <Produtos />
         <Galeria />
+        <Novidades />
       </section>
      </>
   );

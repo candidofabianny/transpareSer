@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Rosarivo } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 
 const rosarivo = Rosarivo({ subsets: ["latin"],
 display: "swap",
@@ -26,6 +27,7 @@ export default function RootLayout({
         <body>
           <Header />
           {children}
+          <Footer />
         </body>
     </html>
   );
