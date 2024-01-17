@@ -18,14 +18,18 @@ const Novidades = () => {
           <div className="bg-transparent row-span-1">
             <p className="text-protonred pb-4 text-[0.9rem] md:text-[1rem]">texto sobre sobre sobr esobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui.</p>
             <p className="text-protonred text-center font-bold text-[1.6rem] md:text-[2rem] pb-6">31/01/24</p>
-            <p className="pb-6 text-[0.9rem] md:text-[1rem]">texto sobre o curso que está aberto, sobre sobre sobre sobre sobre o que está incluso, etc. Todas as informações vão estar aqui.</p></div>
+            <p className="pb-6 text-[0.9rem] md:text-[1rem]">texto sobre o curso que está aberto, sobre sobre sobre sobre sobre o que está incluso, etc. Todas as informações vão estar aqui.</p>
+            <p className="md:hidden text-protonred pb-6 text-[0.9rem] md:text-[1rem] text-end">texto sobre sobre sobre sobresobre sobre sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui.</p>
+         <p className="m:hidden pb-6 text-[0.9rem] md:text-[1rem] text-end">texto sobre o curso que está aberto, sobre sobre sobre sobre sobre sobre o que está incluso, etc. Todas as informações vão estar aqui.</p>
+      
+            </div>
             <div className="hidden md:block bg-transparent">
             <Image src={imgtest} alt="" className="justify-self-end"></Image>
             </div>
             <div className="md:hidden bg-transparent">
             <Image src={imga} alt=""></Image>
             </div>
-      <div className="bg-transparent">
+      <div className="hidden md:block bg-transparent">
          <p className="text-protonred pb-6 text-[0.9rem] md:text-[1rem] text-end">texto sobre sobre sobre sobresobre sobre sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui.</p>
          <p className="pb-6 text-[0.9rem] md:text-[1rem] text-end">texto sobre o curso que está aberto, sobre sobre sobre sobre sobre sobre o que está incluso, etc. Todas as informações vão estar aqui.</p>
       </div>
