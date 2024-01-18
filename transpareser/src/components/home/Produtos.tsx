@@ -9,7 +9,7 @@ import imgtest from "/src/assets/images/home/teste.png"
 const Produtos = () => {
     return (
         <section id="produtos" 
-        className="bg-[url('../assets/images/home/productbg.png')]  flex flex-col items-center justify-center w-full">   
+        className="bg-[url('../assets/images/home/productbg.png')] bg-cover bg-center flex flex-col items-center justify-center w-full">   
         <div className={`${athenevoyage.className}`}>
         <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] pt-12 pb-4">
           Produtos
@@ -20,19 +20,19 @@ const Produtos = () => {
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="para você"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-10">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
+          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-6">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="carreira"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-10"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
+          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-6"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="empresa"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-10">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
+          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-6">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
         </div> 
        </div>
         </div> 
