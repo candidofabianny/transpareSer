@@ -5,148 +5,88 @@ import { useState } from "react";
 import Image from "next/image";
 import Headroom from "react-headroom";
 import { athenevoyage, galabiyah, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
-import img from 'src/assets/images/home/menuig.png'
+import pinterest from 'src/assets/images/home/pinterest.png'
+import profile from 'src/assets/images/home/profile.png'
+import instagram from 'src/assets/images/home/instagram.png'
 
 const Footer = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <Headroom>
-      <footer className="hidden lg:block fixed w-full bg-stickyblack/25">
-        <nav className="w-full mx-auto flex items-center justify-center">
-        <div className={`${galabiyah.className}`}>
-        <ul className="flex items-center gap-4 md:gap-7 text-white ">
-          <li>
-            <Link href="/home" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              home
-            </Link>
-          </li>
-          <li className="dropdown dropdown-hover my-4 md:my-5">
-                <Link href="/para-voce" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">para você</Link>
-                <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>consultoria completa</a></li>
-                  <li><a>análise de coloração</a></li>
-                  <li><a>workshop estilo autêntico</a></li>
-                  <li><a>e-book desafio da autoestima</a></li>
-                </ul>
+      <footer className="w-full ">
+        <div className="bg-[#181515] ">
+       <div className={`${voigante.className}`}>
+        <div className="flex justify-center items-center">
+          <div></div>
+          <div className={`${lovingambros.className}`}>
+          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-14 pr-10 pt-10 text-white gap-6 text-[1.4rem]">
+              <li>
+                Home
               </li>
-              <li className="dropdown dropdown-hover my-4 md:my-5">
-                <Link href="/para-sua-carreira" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">para sua carreira</Link>
-                <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>método transpareSer</a></li>
-                  <li><a>masterclass</a></li>
-                  <li><a>capacitação em atentimento humanizado</a></li>
-                </ul>
+              <li>
+                Contato
               </li>
-          <li className={`${voigante.className}`}>
-          <Link href="/" className="hover:text-bordo transition-all duration-300 ease-in-out text-[2.7rem]">
-              TranspareSer
-            </Link>
-          </li>
-          <li>
-          <Link href="/para-sua-empresa" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              para sua empresa
-            </Link>
-          </li>
-          <li>
-          <Link href="/contato" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              contato
-            </Link>
-          </li>
-          <li>
-          <Link href="/sobre" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              sobre
-            </Link>
-          </li>
-        </ul> 
-        </div> 
-    </nav>
-    <div className="bg-white w-full h-[3px]"></div>  
-    </footer>
-    <footer className="lg:hidden fixed w-full bg-stickyblack/5">
-      <div className="flex items-center justify-center md:justify-around gap-6">
-      <div className={`${voigante.className}`}>
-          <Link href="/transpareSer" className="text-white hover:text-bordo transition-all duration-300 ease-in-out text-[2.5rem]">
-              TranspareSer
-            </Link>
-        </div>
-          <div className="HAMBURGER-ICON space-y-2"
-            onClick={() => setIsNavOpen((prev) => !prev)}>
-            <span className="block h-0.5 w-8 bg-white"></span>
-            <span className="block h-0.5 w-8 bg-white"></span>
-            <span className="block h-0.5 w-8 bg-white"></span>
-          </div>
-        </div>
-          <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-            <div
-              className="absolute top-0 right-0 px-8 py-8 animate-jump-in animate-once animate-duration-[800ms] animate-delay-200 animate-ease-in-out"
-              onClick={() => setIsNavOpen(false)} >
-              <svg
-                className="h-8 w-8 text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round">
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </svg>
+              <li>
+                Sobre
+              </li>
+            </ul> 
             </div>
-            <div className={`${galabiyah.className}`}>
-            <ul className="flex flex-col items-center justify-between text-white text-[1rem] md:text-[1.3rem]">
-              <li className="border-b border-gray-400 my-8">
-                <a href="/">home</a>
+          <Link href="/" className="text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-4">
+              TranspareSer
+            </Link>
+            <div className={`${lovingambros.className}`}>
+          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-10 pt-10 text-white gap-6 text-[1.4rem]">
+              <li>
+                Para sua empresa
               </li>
-              <li className="dropdown dropdown-hover my-4 md:my-5">
-                <Link href="/para-voce" className="border-b border-gray-400">para você</Link>
-                <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>consultoria completa</a></li>
-                  <li><a>análise de coloração</a></li>
-                  <li><a>workshop estilo autêntico</a></li>
-                  <li><a>e-book desafio da autoestima</a></li>
-                </ul>
+              <li>
+                Para sua carreira
               </li>
-              <li className="dropdown dropdown-hover my-4 md:my-5">
-                <Link href="/para-sua-carreira" className="border-b border-gray-400">para sua carreira</Link>
-                <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>método transpareSer</a></li>
-                  <li><a>masterclass</a></li>
-                  <li><a>capacitação em atentimento humanizado</a></li>
-                </ul>
+              <li>
+                Para você
               </li>
-              <li className="border-b border-gray-400 my-8">
-                <a href="para-sua-empresa">para sua empresa</a>
+            </ul> 
+            </div>
+           </div>
+           </div>
+           <div className={`${autography.className}`}>
+            <div className="hidden md:block lg:hidden text-white text-center transition-all duration-300 ease-in-out text-[2rem] pb-2">
+              por Carol Saibert
+            </div>
+            </div>
+           <div className={`${lovingambros.className}`}>
+           <ul className="md:hidden flex justify-center items-center text-white gap-4">
+              <li>
+                Para sua empresa
               </li>
-              <li className="border-b border-gray-400 my-4 md:my-8">
-                <a href="/contato">contato</a>
+              <li>
+                Para sua carreira
               </li>
-              <li className="border-b border-gray-400 my-4 md:my-2">
-                <a href="/sobre">sobre</a>
+            </ul> 
+            <div className="md:hidden flex justify-center items-center text-white pt-3">
+                Para você
+              </div>
+              <ul className="flex justify-center items-center text-white gap-10 pt-4 pb-10">
+              <li>
+                <Image src={pinterest} alt="" className="h-[25px] w-[25px]">
+                </Image>
+              </li>
+              <li>
+              <Image src={profile} alt="" className="h-[25px] w-[25px]">
+                </Image>
+              </li>
+              <li>
+              <Image src={instagram} alt="" className="h-[25px] w-[25px]">
+                </Image>
               </li>
             </ul>
-            </div>
-          </div> 
-        <style>{`
-      .hideMenuNav {
-        display: none;
-      }
-      .showMenuNav {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        background: #040101;
-        z-index: 10;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-      }
-    `}</style> 
-    <div className="bg-white w-full h-[2.5px]"></div>  
+              <div className="flex justify-center items-center text-white text-[0.85rem] text-light">
+              TranspareSer ® 2023
+              </div>
+              <div className="flex justify-center items-center text-white pb-4 text-[0.85rem] text-light">
+              desenvolvido por F2SC
+              </div>
+          </div>
+          </div>
     </footer>
-    </Headroom>
   );
 };
 
