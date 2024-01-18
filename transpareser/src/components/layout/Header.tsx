@@ -11,7 +11,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <Headroom>
-      <header className="hidden lg:block fixed w-full top-0 bg-stickyblack/25">
+      <header className="hidden lg:block fixed w-full top-0 bg-stickyblack/50">
         <nav className="w-full mx-auto flex items-center justify-center">
         <div className={`${galabiyah.className}`}>
         <ul className="flex items-center gap-4 md:gap-7 text-white ">

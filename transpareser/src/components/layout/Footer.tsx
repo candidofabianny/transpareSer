@@ -11,77 +11,144 @@ import instagram from 'src/assets/images/home/instagram.png'
 
 const Footer = () => {
   return (
-      <footer className="w-full ">
-        <div className="bg-[#181515] ">
+      <footer className="w-full">
+        <div className="bg-[#181515]">
+        <div className="hidden lg:block">
+          <div className="flex justify-around p-8">
+              <div className="py-10">
+                <div className="pb-6">
+                  <Link href="/pinterest">
+                  <Image src={pinterest} alt="" className="h-[30px] w-[30px]">
+                  </Image>
+                </Link>
+              </div>
+              <div className="pb-6">
+                <Link href="/pinterest">
+                <Image src={profile} alt="" className="h-[30px] w-[30px]">
+                  </Image>
+                </Link>
+              </div>
+              <div>
+                <Link href="/pinterest">
+                <Image src={instagram} alt="" className="h-[30px] w-[30px]">
+                  </Image>
+                </Link>
+              </div>
+              </div>
+               <div className={`${galabiyah.className}`}>
+          <ul className="flex flex-col justify-center items-left pl-14 pr-10 pt-10 text-white gap-3 text-[1.4rem]">
+          <Link href="/">
+                Home
+              </Link>
+              <Link href="/contato">
+                Contato
+              </Link>
+              <Link href="/sobre">
+                Sobre
+              </Link>
+            </ul> 
+            </div>
+            <div className={`${galabiyah.className}`}>
+          <ul className="flex flex-col items-left pl-10 pt-10 text-white gap-3 text-[1.4rem]">
+              <Link href="/para-sua-empresa">
+                Para sua empresa
+              </Link>
+              <Link href="/para-sua-carreira">
+                Para sua carreira
+              </Link>
+              <Link href="/para-voce">
+                Para você
+              </Link>
+            </ul> 
+            </div>
+            <Link href="/" className="text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-8">
+              TranspareSer
+              <div className={`${autography.className}`}>
+            <div className="text-white text-center transition-all duration-300 ease-in-out text-[2rem] pb-2">
+              por Carol Saibert
+            </div>
+            </div>
+            <div className="flex justify-between text-white text-[0.8rem] text-light pb-4">
+              <p>TranspareSer ® 2023</p>
+              <p>desenvolvido por F2SC</p>
+              </div>
+            </Link>
+              </div>
+            </div>
        <div className={`${voigante.className}`}>
         <div className="flex justify-center items-center">
           <div></div>
-          <div className={`${lovingambros.className}`}>
+          <div className={`${galabiyah.className}`}>
           <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-14 pr-10 pt-10 text-white gap-6 text-[1.4rem]">
-              <li>
+              <Link href="/">
                 Home
-              </li>
-              <li>
+              </Link>
+              <Link href="/contato">
                 Contato
-              </li>
-              <li>
+              </Link>
+              <Link href="/sobre">
                 Sobre
-              </li>
+              </Link>
             </ul> 
             </div>
-          <Link href="/" className="text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-4">
+          <Link href="/" className="lg:hidden text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-4 md:pt-12">
               TranspareSer
-            </Link>
-            <div className={`${lovingambros.className}`}>
-          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-10 pt-10 text-white gap-6 text-[1.4rem]">
-              <li>
-                Para sua empresa
-              </li>
-              <li>
-                Para sua carreira
-              </li>
-              <li>
-                Para você
-              </li>
-            </ul> 
-            </div>
-           </div>
-           </div>
-           <div className={`${autography.className}`}>
+              <div className={`${autography.className}`}>
             <div className="hidden md:block lg:hidden text-white text-center transition-all duration-300 ease-in-out text-[2rem] pb-2">
               por Carol Saibert
             </div>
             </div>
-           <div className={`${lovingambros.className}`}>
-           <ul className="md:hidden flex justify-center items-center text-white gap-4">
-              <li>
+            </Link>
+            <div className={`${galabiyah.className}`}>
+          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-10 pt-10 text-white gap-6 text-[1.4rem]">
+          <Link href="/para-sua-empresa">
                 Para sua empresa
-              </li>
-              <li>
+              </Link>
+              <Link href="/para-sua-carreira">
                 Para sua carreira
-              </li>
+              </Link>
+              <Link href="/para-voce">
+                Para você
+              </Link>
+            </ul> 
+            </div>
+           </div>
+           
+           </div>
+           <div className={`${galabiyah.className}`}>
+           <ul className="md:hidden flex justify-center items-center text-white gap-4">
+           <Link href="/para-sua-empresa">
+                Para sua empresa
+              </Link>
+              <Link href="/para-sua-carreira">
+                Para sua carreira
+              </Link>
             </ul> 
             <div className="md:hidden flex justify-center items-center text-white pt-3">
+              <Link href="/para-voce">
                 Para você
+              </Link>
               </div>
-              <ul className="flex justify-center items-center text-white gap-10 pt-4 pb-10">
-              <li>
+              <ul className="lg:hidden flex justify-center items-center text-white gap-10 md:gap-14 pt-6 pb-10 md:pb-4">
+              <Link href="pinterest">
                 <Image src={pinterest} alt="" className="h-[25px] w-[25px]">
                 </Image>
-              </li>
-              <li>
+              </Link>
+              <Link href="/profile">
               <Image src={profile} alt="" className="h-[25px] w-[25px]">
                 </Image>
-              </li>
-              <li>
+              </Link>
+              <Link href="/instagram">
               <Image src={instagram} alt="" className="h-[25px] w-[25px]">
                 </Image>
-              </li>
+              </Link>
             </ul>
-              <div className="flex justify-center items-center text-white text-[0.85rem] text-light">
-              TranspareSer ® 2023
+              <div className="lg:hidden flex justify-center items-center md:justify-between text-white text-[0.85rem] text-light md:pl-6 md:pr-6 md:pb-4">
+              <p>TranspareSer ® 2023</p>
+              <p></p>
+              <p className="hidden md:block">desenvolvido por F2SC</p>
               </div>
-              <div className="flex justify-center items-center text-white pb-4 text-[0.85rem] text-light">
+              <div className="md:hidden flex justify-center items-center md:justify-end text-white pb-4 text-[0.85rem] text-light">
               desenvolvido por F2SC
               </div>
           </div>

@@ -18,21 +18,21 @@ const Produtos = () => {
         <div className="carousel carousel-center max-w-xxl p-4 lg:space-x-16 space-x-8">
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
-          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
+          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="para você"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[200px] text-center pb-10">texto sobre teste xto texxto texxto texxto texxto texteste teste fnciona</p>
+          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-10">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
-          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
+          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="carreira"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[200px] text-center pb-10">text sobre xto texxto texxto texxto textextotexto oxto sobre</p>
+          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-10"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
-          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="produtos"/>
+          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="empresa"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[200px] text-center pb-10">texto xto texxto texxto texxto textextotextotexto sobre</p>
+          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-10">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
         </div> 
        </div>
         </div> 
