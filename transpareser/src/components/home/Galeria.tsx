@@ -1,9 +1,5 @@
 import React from "react";
-import { athenevoyage, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
-import Link from "next/link";
 import totalframe from "/src/assets/images/home/totalframe.png"
-import exemplo from "/src/assets/images/home/exemplo.png"
-import middle from "/src/assets/images/home/middle.png"
 import Image from "next/image";
 
 const Galeria = () => {

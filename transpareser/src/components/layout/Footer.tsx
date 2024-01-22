@@ -1,10 +1,8 @@
 "use client"
 
 import Link from "next/link";
-import { useState } from "react";
 import Image from "next/image";
-import Headroom from "react-headroom";
-import { athenevoyage, galabiyah, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
+import { galabiyah, voigante, autography } from "@/assets/fonts/fonts";
 import pinterest from 'src/assets/images/home/pinterest.png'
 import profile from 'src/assets/images/home/profile.png'
 import instagram from 'src/assets/images/home/instagram.png'
@@ -61,34 +59,39 @@ const Footer = () => {
               </Link>
             </ul> 
             </div>
+            <div>
+            <div className={`${voigante.className}`}>
             <Link href="/" className="text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-8">
-              TranspareSer
+              TranspareSer </Link></div>
               <div className={`${autography.className}`}>
             <div className="text-white text-center transition-all duration-300 ease-in-out text-[2rem] pb-2">
               por Carol Saibert
             </div>
             </div>
-            <div className="flex justify-between text-white text-[0.8rem] text-light pb-4">
+            <div className="flex gap-4 text-white text-[0.8rem] text-light">
               <p>TranspareSer ® 2023</p>
               <p>desenvolvido por F2SC</p>
               </div>
-            </Link>
+            </div>
               </div>
             </div>
        <div className={`${voigante.className}`}>
         <div className="flex justify-center items-center">
           <div></div>
           <div className={`${galabiyah.className}`}>
-          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-14 pr-10 pt-10 text-white gap-6 text-[1.4rem]">
+          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-14 pr-10 pt-10 text-white gap-6 text-[1.2rem]">
+              <div>
               <Link href="/">
                 Home
-              </Link>
+              </Link></div>
+              <div>
               <Link href="/contato">
                 Contato
-              </Link>
+              </Link></div>
+              <div>
               <Link href="/sobre">
                 Sobre
-              </Link>
+              </Link></div>
             </ul> 
             </div>
           <Link href="/" className="lg:hidden text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-4 md:pt-12">
@@ -100,16 +103,20 @@ const Footer = () => {
             </div>
             </Link>
             <div className={`${galabiyah.className}`}>
-          <ul className="hidden md:block lg:hidden flex flex-col justify-center items-center pl-10 pt-10 text-white gap-6 text-[1.4rem]">
+          <ul className="hidden md:block lg:hidden flex flex-col pl-10 pt-10 text-white gap-6 text-[1.2rem]">
+          <div>
           <Link href="/para-sua-empresa">
                 Para sua empresa
-              </Link>
+              </Link></div>
+              <div>
               <Link href="/para-sua-carreira">
                 Para sua carreira
-              </Link>
+              </Link>  </div>
+              <div>
               <Link href="/para-voce">
                 Para você
               </Link>
+              </div>
             </ul> 
             </div>
            </div>

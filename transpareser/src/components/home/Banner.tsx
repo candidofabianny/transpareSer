@@ -1,4 +1,3 @@
-
 import React from "react";
 import { autography } from "@/assets/fonts/fonts";
 
