@@ -5,7 +5,7 @@ import Image from "next/image";
 const SobreEmpresa = () => {
   return (
     <section id="home"
-    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-6 md:pb-12">    
+    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <p className="md:hidden text-[0.8rem] px-14">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc. </p>
             <div className="hidden md:block pl-12 lg:pl-20 lg:max-w-[580px]">

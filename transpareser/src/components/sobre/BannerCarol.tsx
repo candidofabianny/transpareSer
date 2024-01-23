@@ -4,7 +4,7 @@ import { voigante } from "@/assets/fonts/fonts";
 const BannerCarol = () => {
   return (
     <section id="banner"
-    className="bg-[url('../assets/images/sobre/bgintacarol.png')] bg-fixed bg-center bg-cover flex flex-col items-center justify-center md:min-h-[226px] w-full">    
+    className="bg-[url('../assets/images/sobre/bgintacarol.png')] bg-fixed bg-center bg-cover flex flex-col items-center justify-center min-h-[177px] md:min-h-[226px] w-full">    
         <div className="flex flex-col items-center justify-center py-4">
         <div className={`${voigante.className}`}>
         <h1 className="text-white text-[2.2rem] md:text-[2.8rem] lg:text-[3.4rem] px-2 pb-2 md:pb-4 lg:pb-6 text-center leading-8">

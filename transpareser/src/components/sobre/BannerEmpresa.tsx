@@ -4,11 +4,11 @@ import { voigante } from "@/assets/fonts/fonts";
 const BannerEmpresa = () => {
   return (
     <section id="banner"
-    className="bg-[url('../assets/images/sobre/bginsta.png')] bg-center bg-cover bg-fixed flex flex-col items-center justify-center md:min-h-[226px] w-full">    
+    className="bg-[url('../assets/images/sobre/bginsta.png')] bg-center bg-cover bg-fixed flex flex-col items-center justify-center min-h-[177px] md:min-h-[226px] w-full">    
         <div className="flex flex-col items-center justify-center py-4">
         <div className={`${voigante.className}`}>
         <h1 className="text-white text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] px-2 pb-2 md:pb-4 lg:pb-6 text-center leading-8">
-        O que é psicologia da moda?
+        @transpareser
         </h1>
         </div>
         <h1 className="text-white max-w-[350px] md:max-w-[580px] text-center leading-7 text-[0.9rem] md:text-[1.3rem] lg:text-[1.5rem]">
