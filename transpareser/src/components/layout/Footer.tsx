@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
             <div>
             <div className={`${voigante.className}`}>
-            <Link href="/" className="text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-8">
+            <Link href="/" className="text-white text-center transition-all duration-300 ease-in-out text-[2.5rem] md:text-[2.8rem] pt-10 pl-6">
               TranspareSer </Link></div>
               <div className={`${autography.className}`}>
             <div className="text-white text-center transition-all duration-300 ease-in-out text-[2rem] pb-2">

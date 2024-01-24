@@ -2,10 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
 import Headroom from "react-headroom";
-import { athenevoyage, galabiyah, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
-import img from 'src/assets/images/home/menuig.png'
+import { athenevoyage, galabiyah, voigante } from "@/assets/fonts/fonts";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -65,7 +63,7 @@ const Header = () => {
     <header className="lg:hidden fixed w-full top-0 bg-stickyblack/5">
       <div className="flex items-center justify-center md:justify-around gap-6">
       <div className={`${voigante.className}`}>
-          <Link href="/transpareSer" className="text-white hover:text-bordo transition-all duration-300 ease-in-out text-[2.5rem]">
+          <Link href="/" className="text-white hover:text-bordo transition-all duration-300 ease-in-out text-[2.5rem]">
               TranspareSer
             </Link>
         </div>
