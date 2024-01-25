@@ -15,7 +15,9 @@ module.exports = {
         lovingambros:["--font-loving-ambros"],
         athenevoyage:["--font-athene-voyage"],
         autography:["--font-autography"],
-        galabiyah:["--font-galabiyah"]
+        galabiyah:["--font-galabiyah"],
+        barcelony:["--font-barcelony"],
+        holispay:["--font-holispay"]
       },
       colors: {
         bordo: "#971E1E",
