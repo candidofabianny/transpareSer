@@ -32,7 +32,7 @@ const galabiyah = localFont({
 })
 
 const barcelony = localFont({
-    src:"./barcelony/barcelony.ttf",
+    src:"./barcelony/Barcelony.ttf",
     variable: "--font-barcelony"
 })
 
