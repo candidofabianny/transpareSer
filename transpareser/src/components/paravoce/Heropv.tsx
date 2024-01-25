@@ -14,7 +14,7 @@ const Heropv = () => {
         </div>
         <div className="flex flex-col md:w-3/5 lg:w-2/4 items-center">
         <div className={`${autography.className}`}>
-          <h1 className="text-[4.5rem] text-white text-center leading-7 pt-18 hidden md:block">Para Você</h1>
+          <h1 className="text-[4.5rem] text-white text-center leading-7 pt-18 pb-4 hidden md:block">Para Você</h1>
         </div> 
         <div className={`${athenevoyage.className}`}>
         <h1 className="text-white text-center leading-none tracking-tighter text-[2.3rem] md:text-[2.55rem] lg:text-[3.13rem] px-6 lg:px-8 md:px-2 md:pb-12 py-6">

@@ -31,4 +31,14 @@ const galabiyah = localFont({
     variable: "--font-galabiyah"
 })
 
-export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature};
+const barcelony = localFont({
+    src:"./barcelony/barcelony.ttf",
+    variable: "--font-barcelony"
+})
+
+const holispay = localFont({
+    src:"./holispay/holispay.ttf",
+    variable: "--font-holispay"
+})
+
+export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay};
