@@ -2,6 +2,7 @@ import React from "react";
 import Heropv from "./Heropv";
 import Consultoria from "./Consultoria";
 import AnaliseColoracao from "./AnaliseColoracao";
+import Workshop from "./Workshop";
 
 const ParaVoce = () => {
    return (
@@ -11,6 +12,7 @@ const ParaVoce = () => {
         <Heropv />
         <Consultoria />
         <AnaliseColoracao />
+        <Workshop />
       </section>
      </>
   );
