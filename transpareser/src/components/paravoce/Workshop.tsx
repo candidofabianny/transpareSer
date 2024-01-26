@@ -1,5 +1,5 @@
 import React from "react";
-import consultoria from "/src/assets/images/paravoce/buttonconsultoria.png"
+import workshop from "/src/assets/images/paravoce/worshop.png"
 import garantia from "/src/assets/images/paravoce/garanta.png"
 import Image from "next/image";
 import { holispay, barcelony, orleymore } from "@/assets/fonts/fonts";
@@ -17,8 +17,12 @@ const Workshop = () => {
            <Link href="/consultoria">
           <Image
             alt="gallery"
-            className="h-[410px] w-[280px] md:w-[270px] lg:w-[300px] md:h-[420px] lg:h-[440px] md:ml-10"
-            src={consultoria} /></Link>
+            className="md:hidden h-[410px] w-[280px] md:w-[270px] lg:w-[300px] md:h-[420px] lg:h-[440px] md:ml-10"
+            src={workshop} /></Link>
+            <Image
+            alt="gallery"
+            className="hidden md:block h-[410px] w-[280px] md:w-[270px] lg:w-[300px] md:h-[420px] lg:h-[440px] md:ml-10"
+            src={workshop} />
             <p className="md:hidden text-[1rem] px-12 text-center">Uma experiência  em grupo com muita informação e interação com outras mulheres que também desejam revolucionar o próprio estilo</p>
             <div className="hidden md:block px-6 lg:px-12 md:max-w-[420px] lg:max-w-[580px]">
             <div className={`${orleymore.className}`}>
