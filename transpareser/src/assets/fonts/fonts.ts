@@ -41,4 +41,9 @@ const holispay = localFont({
     variable: "--font-holispay"
 })
 
-export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay};
+const orleymore = localFont({
+    src:"./orleymore/Orleymore Demo.ttf",
+    variable: "--font-orleymore"
+})
+
+export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay, orleymore};
