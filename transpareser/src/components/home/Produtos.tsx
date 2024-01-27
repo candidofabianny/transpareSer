@@ -15,24 +15,24 @@ const Produtos = () => {
           Produtos
         </h1></div>
         <div className="flex justify-center items-center w-full">
-        <div className="carousel carousel-center max-w-xxl p-4 lg:space-x-16 space-x-8">
+        <div className="carousel carousel-center max-w-xxl p-2 lg:space-x-16 space-x-8">
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="para você"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-6">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
+          <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="carreira"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-6"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
+          <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="#">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="empresa"/>
           </a>
-          <p className="text-white py-6 text-[1.25rem] max-w-[215px] text-center pb-6">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
+          <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
         </div> 
        </div>
         </div> 
