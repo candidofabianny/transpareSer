@@ -1,5 +1,4 @@
 import React from "react";
-import sobre from "/src/assets/images/sobre/bgresumo.png"
 import pinterest from 'src/assets/images/home/pinterest.png'
 import profile from 'src/assets/images/home/profile.png'
 import instagram from 'src/assets/images/home/instagram.png'

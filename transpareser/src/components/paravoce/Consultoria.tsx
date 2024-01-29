@@ -1,7 +1,7 @@
 import React from "react";
 import consultoria from "/src/assets/images/paravoce/buttonconsultoria.png"
 import Image from "next/image";
-import { voigante, barcelony } from "@/assets/fonts/fonts";
+import { barcelony } from "@/assets/fonts/fonts";
 import Link from "next/link";
 
 const Consultoria = () => {
@@ -23,7 +23,6 @@ const Consultoria = () => {
             <p className="text-[3rem] lg:text-[3.9rem] tracking-tighter pb-10 text-center lg:text-left">Consultoria Completa</p></div>
             <p className="text-[1.12rem] lg:text-[1.16rem] text-center lg:text-left">Para a mulher que deseja uma experiência completa, com companhamento durante 10 sessões que vão revolucionar sua relação com seu estilo, com seu guarda-roupas e consigo mesma</p>
             </div>
-            
              </div>
       </section>
   );

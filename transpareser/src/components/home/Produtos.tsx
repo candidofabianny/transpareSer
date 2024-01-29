@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-import { athenevoyage, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
-import Link from "next/link";
+import { athenevoyage } from "@/assets/fonts/fonts";
 import Image from "next/image";
 import imgtest from "/src/assets/images/home/teste.png"
 
@@ -17,19 +16,19 @@ const Produtos = () => {
         <div className="flex justify-center items-center w-full">
         <div className="carousel carousel-center max-w-xxl p-2 lg:space-x-16 space-x-8">
         <div className="flex flex-col justify-center items-center carousel-item">
-        <a href="#">
+        <a href="/para-voce">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="para você"/>
           </a>
           <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
-        <a href="#">
+        <a href="/para-sua-carreira">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="carreira"/>
           </a>
           <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
-        <a href="#">
+        <a href="para-sua-empresa">
           <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px]" alt="empresa"/>
           </a>
           <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">Conheça todas as soluções para o seu negócio e seus colaboradores</p>

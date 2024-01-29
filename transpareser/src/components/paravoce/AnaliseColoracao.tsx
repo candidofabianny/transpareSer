@@ -3,7 +3,7 @@ import analise from "/src/assets/images/paravoce/analisecoloracao.png"
 import cima from "/src/assets/images/paravoce/cima.png"
 import baixo from "/src/assets/images/paravoce/baixo.png"
 import Image from "next/image";
-import { voigante, barcelony, holispay } from "@/assets/fonts/fonts";
+import { holispay } from "@/assets/fonts/fonts";
 import Link from "next/link";
 
 const AnaliseColoracao = () => {

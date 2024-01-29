@@ -1,13 +1,13 @@
 import React from "react";
 import { athenevoyage, autography } from "@/assets/fonts/fonts";
 
-const Heropv = () => {
+const Heropc = () => {
   return (
     <section id="home"
-    className="bg-[url('../assets/images/paravoce/bgparavoce.png')] bg-cover bg-center flex flex-col items-center justify-center min-h-[655px] w-full lg:pt-10">    
+    className="bg-[url('../assets/images/paravoce/bgparavoce.png')] bg-cover bg-center flex flex-col items-center justify-center min-h-[655px] w-full">    
         <div className="bg-black/60 min-h-[655px] w-full flex flex-col md:flex-row items-center justify-center">
         <div className={`${autography.className}`}>
-          <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Para Você</h1>
+          <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Para sua carreira</h1>
         </div> 
         <div className="md:hidden w-[220px] lg:w-[280px] h-[400px] lg:h-[440px] rounded-t-full rounded-b bg-[url('../assets/images/paravoce/paravocehero.png')] md:mx-4 lg:mx-10 bg-center bg-cover">
         </div>
@@ -28,4 +28,4 @@ const Heropv = () => {
   );
 };
 
-export default Heropv;
+export default Heropc;

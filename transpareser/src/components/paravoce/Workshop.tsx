@@ -1,8 +1,9 @@
 import React from "react";
 import workshop from "/src/assets/images/paravoce/worshop.png"
 import garantia from "/src/assets/images/paravoce/garanta.png"
+import button from "/src/assets/images/paravoce/buttonworkshop.png"
 import Image from "next/image";
-import { holispay, barcelony, orleymore } from "@/assets/fonts/fonts";
+import { orleymore } from "@/assets/fonts/fonts";
 import Link from "next/link";
 
 const Workshop = () => {
@@ -14,14 +15,14 @@ const Workshop = () => {
            <p className="md:hidden text-[2.7rem] text-center">Workshop</p>
            <p className="md:hidden text-[2.7rem] text-center">Estilo Autêntico</p>
            </div>
-           <Link href="/workshop">
+           <Link href="/workshop-estilo-autentico">
           <Image
             alt="gallery"
-            className="md:hidden h-[360px] w-[280px]"
-            src={workshop} /></Link>
+            className="md:hidden h-[390px] w-[280px] -mt-4"
+            src={button} /></Link>
             <Image
             alt="gallery"
-            className="hidden md:block w-[280px] h-[360px] lg:w-[300px] lg:h-[400px] md:ml-6"
+            className="hidden md:block w-[280px] h-[360px] lg:w-[318px] lg:h-[400px] md:ml-6"
             src={workshop} />
             <p className="md:hidden text-[1rem] px-12 text-center">Uma experiência em grupo com muita informação e interação com outras mulheres que também desejam revolucionar o próprio estilo</p>
             <div className="hidden md:block px-6 lg:px-12 md:max-w-[420px] lg:max-w-[580px]">

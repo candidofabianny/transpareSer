@@ -46,4 +46,9 @@ const orleymore = localFont({
     variable: "--font-orleymore"
 })
 
-export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay, orleymore};
+const catalinavillage = localFont({
+    src:"./catalina-village/CatalinaVillageRegular-qZlLr.ttf",
+    variable: "--font-catalina-village"
+})
+
+export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay, orleymore, catalinavillage};

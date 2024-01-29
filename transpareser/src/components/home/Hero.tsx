@@ -1,5 +1,5 @@
 import React from "react";
-import { athenevoyage, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
+import { athenevoyage, autography } from "@/assets/fonts/fonts";
 import Link from "next/link";
 
 const Hero = () => {

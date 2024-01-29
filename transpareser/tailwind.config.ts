@@ -17,7 +17,8 @@ module.exports = {
         autography:["--font-autography"],
         galabiyah:["--font-galabiyah"],
         barcelony:["--font-barcelony"],
-        holispay:["--font-holispay"]
+        holispay:["--font-holispay"],
+        catalinavillage:["--font-catalina-village"]
       },
       colors: {
         bordo: "#971E1E",
