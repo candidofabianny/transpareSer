@@ -10,7 +10,7 @@ import Link from "next/link";
 const Ebook = () => {
   return (
     <section id="home"
-    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pb-12">
+    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full -mt-1  pb-12">
       <Image
             alt="gallery"
             className=""
