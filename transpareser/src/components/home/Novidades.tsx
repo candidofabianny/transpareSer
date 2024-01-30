@@ -1,5 +1,5 @@
 import React from "react";
-import { athenevoyage, voigante, lovingambros, autography } from "@/assets/fonts/fonts";
+import { athenevoyage } from "@/assets/fonts/fonts";
 import Link from "next/link";
 import Image from "next/image";
 import imgtest from "/src/assets/images/home/novidades.png";

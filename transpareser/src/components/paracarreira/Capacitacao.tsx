@@ -1,6 +1,5 @@
 import React from "react";
 import metodo from "/src/assets/images/paracarreira/metodoprincipal.png"
-import button from "/src/assets/images/paracarreira/confira.png"
 import Image from "next/image";
 import { catalinavillage } from "@/assets/fonts/fonts";
 import Link from "next/link";
