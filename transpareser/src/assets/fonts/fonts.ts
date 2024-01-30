@@ -51,4 +51,14 @@ const catalinavillage = localFont({
     variable: "--font-catalina-village"
 })
 
-export {voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay, orleymore, catalinavillage};
+const against = localFont({
+    src:"./against/against regular.otf",
+    variable: "--font-against"
+})
+
+const premint = localFont({
+    src:"./premint/premint-demo.ttf",
+    variable: "--font-premint"
+})
+
+export {against, premint, voigante, galabiyah, lovingambros, athenevoyage, autography, andisignature, barcelony, holispay, orleymore, catalinavillage};

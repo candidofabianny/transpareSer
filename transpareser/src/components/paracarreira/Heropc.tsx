@@ -16,7 +16,7 @@ const Heropc = () => {
           <h1 className="lg:text-[4.5rem] md:-mr-12 text-[4rem] text-white text-center leading-7 pt-18 pb-4 hidden md:block">Para sua carreira</h1>
         </div> 
         <div className={`${athenevoyage.className}`}>
-        <h1 className="text-white md:-mr-12 text-left px-16 md:px-6 -mt-28 md:-mt-0 md:text-center leading-none tracking-tighter text-[2.3rem] md:text-[2.55rem] lg:text-[3.13rem] lg:px-8 md:px-2  py-6">
+        <h1 className="text-white md:-mr-12 text-left px-16 md:px-6 -mt-28 md:-mt-0 md:text-center leading-none tracking-tighter text-[2.3rem] md:text-[2.55rem] lg:text-[3.13rem] lg:px-8 py-6 pb-16">
         Como posso te ajudar a transparecer seu estilo autêntico
         </h1>
         </div>

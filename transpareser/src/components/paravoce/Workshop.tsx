@@ -9,7 +9,7 @@ import Link from "next/link";
 const Workshop = () => {
   return (
     <section id="home"
-    className="bg-[#181515] justify-center items-center flex flex-col w-full -mt-1 pb-6">    
+    className="bg-[#181515] justify-center items-center flex flex-col w-full -mt-1 pb-12">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-8 text-white pt-4">
         <div className={`${orleymore.className}`}>
            <p className="md:hidden text-[2.7rem] text-center">Workshop</p>
