@@ -14,7 +14,6 @@ const Home = () => {
         <Banner />
         <Produtos />
         <Galeria />
-        <Novidades />
       </section>
      </>
   );

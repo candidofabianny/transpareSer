@@ -27,7 +27,7 @@ const AnaliseColoracao = () => {
             <Link href="/analise-de-coloracao">
           <Image
             alt="gallery"
-            className="h-[410px] w-[280px] md:w-[270px] lg:w-[310px] md:h-[420px] lg:h-[470px] md:mr-20 -mt-6"
+            className="h-[410px] w-[280px] md:w-[270px] lg:w-[310px] md:h-[420px] lg:h-[470px] md:mr-20 -mt-10"
             src={analise} /></Link>
              </div>
              <Image

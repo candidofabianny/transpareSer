@@ -14,7 +14,7 @@ const Header = () => {
         <div className={`${galabiyah.className}`}>
         <ul className="flex items-center gap-4 md:gap-7 text-white ">
           <li>
-            <Link href="/home" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
+            <Link href="/" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
               home
             </Link>
           </li>
@@ -23,15 +23,11 @@ const Header = () => {
                 <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><a>consultoria completa</a></li>
                   <li><a>análise de coloração</a></li>
-                  <li><a>workshop estilo autêntico</a></li>
-                  <li><a>e-book desafio da autoestima</a></li>
                 </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-sua-carreira" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">para sua carreira</Link>
                 <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>método transpareSer</a></li>
-                  <li><a>masterclass</a></li>
                   <li><a>capacitação em atentimento humanizado</a></li>
                 </ul>
               </li>
@@ -100,15 +96,11 @@ const Header = () => {
                 <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><a>consultoria completa</a></li>
                   <li><a>análise de coloração</a></li>
-                  <li><a>workshop estilo autêntico</a></li>
-                  <li><a>e-book desafio da autoestima</a></li>
                 </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-sua-carreira" className="border-b border-gray-400">para sua carreira</Link>
                 <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>método transpareSer</a></li>
-                  <li><a>masterclass</a></li>
                   <li><a>capacitação em atentimento humanizado</a></li>
                 </ul>
               </li>
