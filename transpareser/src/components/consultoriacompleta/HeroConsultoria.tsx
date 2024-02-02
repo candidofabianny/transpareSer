@@ -1,7 +1,7 @@
 import React from "react";
 import { athenevoyage, autography } from "@/assets/fonts/fonts";
 
-const HeroConsultoria = () => {
+const Herope = () => {
   return (
     <section id="home"
     className="bg-[url('../assets/images/paraempresa/bgempresa.png')] bg-cover bg-center flex flex-col justify-center min-h-[595px] w-full">    
@@ -19,4 +19,4 @@ const HeroConsultoria = () => {
   );
 };
 
-export default HeroConsultoria;
+export default Herope;
