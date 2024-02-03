@@ -1,6 +1,5 @@
 import React from "react";
-import Herope from "./HeroConsultoria";
-import HeroConsultoria from "../paraempresa/Herope";
+import HeroConsultoria from "./HeroConsul";
 
 const ConsultoriaCompleta = () => {
    return (

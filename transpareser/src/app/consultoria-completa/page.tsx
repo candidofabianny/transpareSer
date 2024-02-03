@@ -1,12 +1,11 @@
 'use client';
 
-import HeroConsultoria from "@/components/paraempresa/Herope";
-
+import ConsultoriaCompleta from "@/components/consultoriacompleta/Index";
 
 const consultoriaCompleta = () => {
   return (
     <main>
-    <HeroConsultoria />
+    <ConsultoriaCompleta />
     </main>
   );
 };

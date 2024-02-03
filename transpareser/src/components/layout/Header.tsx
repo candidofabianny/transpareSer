@@ -21,7 +21,7 @@ const Header = () => {
           <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-voce" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">para você</Link>
                 <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>consultoria completa</a></li>
+                  <li><Link href="/consultoria-completa">consultoria completa</Link></li>
                   <li><a>análise de coloração</a></li>
                 </ul>
               </li>
@@ -94,7 +94,7 @@ const Header = () => {
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-voce" className="border-b border-gray-400">para você</Link>
                 <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>consultoria completa</a></li>
+                  <li><Link href="/consultoria-completa">consultoria completa</Link></li>
                   <li><a>análise de coloração</a></li>
                 </ul>
               </li>
