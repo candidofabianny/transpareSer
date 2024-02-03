@@ -12,7 +12,7 @@ const Consultoria = () => {
         <div className={`${barcelony.className}`}>
            <p className="md:hidden text-[2.9rem] tracking-tight text-center">Consultoria Completa</p>
            </div>
-           <Link href="/consultoria">
+           <Link href="/consultoria-completa">
           <Image
             alt="gallery"
             className="h-[410px] w-[280px] md:w-[270px] lg:w-[300px] md:h-[420px] lg:h-[440px] lg:ml-10"
