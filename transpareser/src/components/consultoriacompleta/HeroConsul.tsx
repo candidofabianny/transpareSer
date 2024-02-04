@@ -35,10 +35,10 @@ const HeroConsultoria = () => {
         onMouseMove={handleMove}
         onMouseDown={handleMouseDown}
       >
-      <div className="bg-[#971E1E] md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center md:min-h-[550px] lg:md:min-h-[590px]">
+      <div className="bg-[#971E1E] md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center md:min-h-[580px] lg:md:min-h-[590px]">
               <div><div className={`${barcelony.className}`}>
               <p className="text-white text-[2.5rem] md:text-[3rem]">Consultoria Completa</p></div>
-              <p className="hidden md:block text-white pt-8 pb-12 text-[1.28rem] px-6 md:px-10">texto introdutório sobre o transpareser e uma frase de impacto</p>
+              <p className="hidden md:block text-white pt-8 pb-12 text-[1.28rem] px-6 md:max-w-[430px] lg:max-w-[670px]">texto introdutório sobre o transpareser e uma frase de impacto</p>
               <div className="hidden md:block">
               <div className={`${orleymore.className}`}>
               <Link className="bg-[#8F1717] transition ease-in-out rounded-full text-white text-[1.55rem] px-10 py-4 place-self-center hover:bg-[#BD4646]" href="">Adquira já</Link>
@@ -46,8 +46,8 @@ const HeroConsultoria = () => {
               </div>
               </div>
               <p className="md:hidden text-white py-8 text-[1.28rem] px-6 md:px-10">texto introdutório sobre o transpareser e uma frase de impacto</p>
-              <div className="">
-                <Image src={ig} alt=""className="object-cover w-[250px] md:w-[300px] lg:w-[360px] h-[340px] md:h-[420px] lg:h-[500px] mx-auto"></Image>
+              <div>
+                <Image src={ig} alt=""className="object-cover w-[220px] md:w-[310px] lg:w-[360px] h-[320px] md:h-[440px] lg:h-[500px] mx-auto"></Image>
                 </div>
             </div>
 
@@ -55,10 +55,10 @@ const HeroConsultoria = () => {
           className="absolute top-0 left-0 right-0 w-full aspect-[9/16] md:aspect-[70/45] m-auto overflow-hidden select-none"
           style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
         >
-         <div className="bg-[#1F1A1A] md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center md:min-h-[550px] lg:md:min-h-[590px]">
+         <div className="bg-[#1F1A1A] md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center md:min-h-[580px] lg:md:min-h-[590px]">
               <div><div className={`${barcelony.className}`}>
               <p className="text-white text-[2.5rem] md:text-[3rem]">Consultoria Completa</p></div>
-              <p className="hidden md:block text-white pt-8 pb-12 text-[1.28rem] px-6 md:px-10">texto introdutório sobre o transpareser e uma frase de impacto</p>
+              <p className="hidden md:block text-white pt-8 pb-12 text-[1.28rem] px-6 md:max-w-[430px] lg:max-w-[670px]">texto introdutório sobre o transpareser e uma frase de impacto</p>
               <div className="hidden md:block">
               <div className={`${orleymore.className}`}>
               <Link className="bg-[#454242] transition ease-in-out rounded-full text-white text-[1.55rem] px-10 py-4 place-self-center hover:bg-[#BD4646]" href="">Adquira já</Link>
@@ -66,8 +66,8 @@ const HeroConsultoria = () => {
               </div>
               </div>
               <p className="md:hidden text-white py-8 text-[1.28rem] px-6 md:px-10">texto introdutório sobre o transpareser e uma frase de impacto</p>
-              <div className="">
-                <Image src={ig} alt=""className="object-cover w-[250px] md:w-[300px] lg:w-[360px] h-[340px] md:h-[420px] lg:h-[500px] mx-auto"></Image>
+              <div>
+                <Image src={ig} alt=""className="object-cover w-[220px] md:w-[310px] lg:w-[360px] h-[320px] md:h-[440px] lg:h-[500px] mx-auto"></Image>
                 </div>
             </div>
         </div>
