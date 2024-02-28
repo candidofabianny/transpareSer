@@ -5,12 +5,12 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section id="home"
-    className="bg-[url('../assets/images/home/home.jpg')] bg-cover bg-center flex flex-col items-center justify-center min-h-[655px] w-full">    
+    className="bg-[url('../assets/images/home/bghome.jpeg')] md:bg-fill md:bg-cover md:bg-bottom flex flex-col items-center justify-center min-h-[655px] w-full">    
         <div className="bg-black/60 min-h-[655px] w-full flex flex-col md:flex-row justify-center items-center">
         <div className={`${autography.className}`}>
           <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Você se conhece</h1>
         </div> 
-        <div className="w-[220px] lg:w-[280px] h-[400px] lg:h-[440px] rounded-t-full rounded-b bg-[url('../assets/images/home/herophoto.png')] md:mx-10 bg-center bg-cover">
+        <div className="w-[220px] lg:w-[280px] h-[400px] lg:h-[440px] rounded-t-full rounded-b bg-[url('../assets/images/home/heroCenter.jpg')] md:mx-10 bg-center bg-cover">
         </div>
         <div className="flex flex-col md:w-3/5 lg:w-2/4 items-center">
         <div className={`${autography.className}`}>

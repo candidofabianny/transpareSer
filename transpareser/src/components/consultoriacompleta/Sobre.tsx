@@ -9,7 +9,7 @@ const SobreConsultoria = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <p className="md:hidden text-[0.8rem] px-14">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc. </p>
             <div className="md:pl-12 lg:pl-20 lg:max-w-[580px]">
-            <p className="hidden md:block text-[1.05rem] lg:text-[1.3rem] pb-8 lg:pb-12">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc. </p>
+            <p className="hidden md:block text-[1.05rem] lg:text-[1.22rem] pb-8 lg:pb-12">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc. </p>
             <Image
             alt="gallery"
             className="md:hidden h-[505px] w-[310px] mx-auto mb-4 object-fill"
@@ -44,7 +44,7 @@ const SobreConsultoria = () => {
              </div>
             <Image
             alt="gallery"
-            className="hidden md:block mr-6 lg:mr-20 h-[486px] w-[290px] lg:w-[330px] object-fill"
+            className="hidden md:block mr-6 lg:mr-20 h-[486px] w-[290px] lg:w-[320px] object-fill"
             src={sobre} />
              </div>
       </section>

@@ -3,7 +3,9 @@
 import React from "react";
 import { athenevoyage } from "@/assets/fonts/fonts";
 import Image from "next/image";
-import imgtest from "/src/assets/images/home/teste.png"
+import voce from "/src/assets/images/home/paravoce.png"
+import carreira from "/src/assets/images/home/paracarreira.png"
+import empresa from "/src/assets/images/home/paraempresa.png"
 
 const Produtos = () => {
     return (
@@ -17,19 +19,19 @@ const Produtos = () => {
         <div className="carousel carousel-center max-w-xxl p-2 lg:space-x-16 space-x-8">
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="/para-voce">
-          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px] object-cover" alt="para você"/>
+          <Image src={voce} className="hover:grayscale md:h-[340px] md:w-[210px] object-cover" alt="para você"/>
           </a>
           <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="/para-sua-carreira">
-          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px] object-covers" alt="carreira"/>
+          <Image src={carreira} className="hover:grayscale md:h-[340px] md:w-[210px] object-covers" alt="carreira"/>
           </a>
           <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="para-sua-empresa">
-          <Image src={imgtest} className="hover:grayscale md:h-[340px] md:w-[220px] object-cover" alt="empresa"/>
+          <Image src={empresa} className="hover:grayscale md:h-[340px] md:w-[210px] object-cover" alt="empresa"/>
           </a>
           <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
         </div> 
