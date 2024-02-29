@@ -1,5 +1,5 @@
 import React from "react";
-import consultoria from "/src/assets/images/paravoce/buttonconsultoria.png"
+import consultoria from "/src/assets/images/paravoce/consultoria.jpg"
 import Image from "next/image";
 import { barcelony } from "@/assets/fonts/fonts";
 import Link from "next/link";
