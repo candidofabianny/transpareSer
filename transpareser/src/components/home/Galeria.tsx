@@ -1,16 +1,27 @@
 import React from "react";
-import totalframe from "/src/assets/images/home/totalframe.png"
+import totalframe from "/src/assets/images/home/centergallery.png"
+import esquerda from "/src/assets/images/home/esquerdagallery.png"
+import direita from "/src/assets/images/home/direitogallery.png"
+
 import Image from "next/image";
 
 const Galeria = () => {
   return (
     <section id="home"
-    className="bg-[url('../assets/images/home/bggaleria.png')] bg-cover bg-center justify-center items-center flex flex-col min-h-[500px] w-full">    
-        <div className="bg-black/50 min-h-[500px] w-full flex flex-row justify-center items-end">
+    className="bg-[#1D1A1A] justify-end items-end flex flex-col w-full">    
+        <div className="w-full flex flex-row justify-center items-end">
         <Image
           alt="gallery"
-          className="h-[480px] md:h-[500px] w-[500px] md:w-[550px] object-cover"
+          className="hidden md:block w-[120px] lg:w-[200px] h-[170px] lg:h-[290px] mb-24 -mr-16 grayscale hover:grayscale-0"
+          src={esquerda} />
+          <Image
+          alt="gallery"
+          className="h-[80%] md:h-[45%] md:w-[52%]"
           src={totalframe} />
+          <Image
+          alt="gallery"
+          className="hidden md:block w-[120px] lg:w-[210px] h-[220px] lg:h-[390px] mb-12 -ml-16 grayscale hover:grayscale-0"
+          src={direita} />
     </div>
       </section>
   );

@@ -8,18 +8,17 @@ const Hero = () => {
     className="bg-[url('../assets/images/home/bghome.jpeg')] md:bg-fill md:bg-cover md:bg-bottom flex flex-col items-center justify-center min-h-[655px] w-full">    
         <div className="bg-black/60 min-h-[655px] w-full flex flex-col md:flex-row justify-center items-center">
         <div className={`${autography.className}`}>
-          <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Você se conhece</h1>
+          <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Descubra</h1>
         </div> 
         <div className="w-[220px] lg:w-[280px] h-[400px] lg:h-[440px] rounded-t-full rounded-b bg-[url('../assets/images/home/heroCenter.jpg')] md:mx-10 bg-center bg-cover">
         </div>
         <div className="flex flex-col md:w-3/5 lg:w-2/4 items-center">
         <div className={`${autography.className}`}>
-          <h1 className="text-[4.5rem] text-white text-center leading-7 pt-18 hidden md:block">Você se conhece</h1>
+          <h1 className="text-[4.5rem] text-white text-center leading-7 pt-18 hidden md:block">Descubra</h1>
         </div> 
         <div className={`${athenevoyage.className}`}>
-        <h1 className="text-white text-center leading-none tracking-tighter text-[2.7rem] md:text-[3rem] lg:text-[3.36rem] px-4 md:px-2 md:pb-14 py-6">
-          o suficiente para se vestir de você?
-        </h1>
+        <h1 className="text-white text-center leading-none tracking-tighter text-[2.4rem] md:text-[3rem] lg:text-[3.2rem] p-6 md:px-2">
+        o poder de ser você </h1>
         </div>
         <Link href="/sobre">
         <svg xmlns="http://www.w3.org/2000/svg" width="172" height="65" viewBox="0 0 177 68" fill="none" className="mb-8">

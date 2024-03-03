@@ -8,7 +8,7 @@ const TranspareSer = () => {
         <div className={`${voigante.className}`}>
          <h1 className="text-white text-[3rem] md:text-[3.7rem] md:pl-[70px] lg:pl-[180px]">A TranspareSer</h1>
          </div>
-         <p className="text-[1.3rem] md:text-[1.6rem] lg:text-[1.3rem] text-center lg:text-left lg:pt-28 text-white px-12 md:pr-4 md:max-w-[460px] lg:max-w-[410px]">Onde a psicologia e a moda se encontram para escrever o futuro, hoje.</p>
+         <p className="text-[1.3rem] md:text-[1.6rem] lg:text-[1.3rem] text-center lg:text-left lg:pt-28 text-white px-12 md:pr-4 md:max-w-[460px] lg:max-w-[410px]">unindo psicologia e moda em uma experiência incomparável</p>
     </div>
 </div>
     );

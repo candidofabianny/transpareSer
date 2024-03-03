@@ -1,6 +1,6 @@
 import React from "react";
-import ig from "src/assets/images/consultoria/consultoriaimg.png"
-import { athenevoyage, barcelony, orleymore } from "@/assets/fonts/fonts";
+import ig from "src/assets/images/consultoria/consultoria.png"
+import { barcelony, orleymore } from "@/assets/fonts/fonts";
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";

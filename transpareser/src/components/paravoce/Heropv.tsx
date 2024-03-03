@@ -17,7 +17,7 @@ const Heropv = () => {
         </div> 
         <div className={`${athenevoyage.className}`}>
         <h1 className="text-white text-center leading-none tracking-tighter text-[1.8rem] md:text-[2.55rem] lg:text-[3.13rem] px-6 lg:px-8 md:px-2 md:pb-12 py-6">
-        Como posso te ajudar a transparecer seu estilo autêntico?
+        Como posso te ajudar a transparecer seu estilo autêntico
         </h1>
         </div>
         </div>  

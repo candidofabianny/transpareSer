@@ -1,5 +1,5 @@
 import React from "react";
-import consultoria from "/src/assets/images/paravoce/consultoria.jpg"
+import consultoria from "/src/assets/images/paravoce/buttonconsultoria.png"
 import Image from "next/image";
 import { barcelony } from "@/assets/fonts/fonts";
 import Link from "next/link";
@@ -7,10 +7,10 @@ import Link from "next/link";
 const Consultoria = () => {
   return (
     <section id="home"
-    className="bg-[#181515] justify-center items-center flex flex-col w-full -mt-1 pb-8">    
+    className="bg-[#181515] justify-center items-center flex flex-col w-full">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-8 text-white pt-14">
         <div className={`${barcelony.className}`}>
-           <p className="md:hidden text-[2.9rem] tracking-tight text-center">Consultoria Completa</p>
+           <p className="md:hidden text-[2.4rem] tracking-tight text-center">Consultoria Completa</p>
            </div>
            <Link href="/consultoria-completa">
           <Image

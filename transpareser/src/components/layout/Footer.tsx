@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { galabiyah, voigante, autography } from "@/assets/fonts/fonts";
 import pinterest from 'src/assets/images/home/pinterest.png'
-import profile from 'src/assets/images/home/profile.png'
+import whatsapp from 'src/assets/images/contato/whatsapp.png'
 import instagram from 'src/assets/images/home/instagram.png'
 
 const Footer = () => {
@@ -21,8 +21,8 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="pb-6">
-                <Link href="/pinterest">
-                <Image src={profile} alt="" className="h-[30px] w-[30px]">
+                <Link href="https://wa.me/message/XCU4MVPJDQJVO1">
+                <Image src={whatsapp} alt="redirecionar whatsapp" className="h-[30px] w-[30px]">
                   </Image>
                 </Link>
               </div>
@@ -141,8 +141,8 @@ const Footer = () => {
                 <Image src={pinterest} alt="" className="h-[25px] w-[25px]">
                 </Image>
               </Link>
-              <Link href="/profile">
-              <Image src={profile} alt="" className="h-[25px] w-[25px]">
+              <Link href="/https://wa.me/message/XCU4MVPJDQJVO1">
+              <Image src={whatsapp} alt="redirecionar whatsapp" className="h-[25px] w-[25px]">
                 </Image>
               </Link>
               <Link href="/instagram">

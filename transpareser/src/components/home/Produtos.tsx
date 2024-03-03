@@ -10,30 +10,30 @@ import empresa from "/src/assets/images/home/paraempresa.png"
 const Produtos = () => {
     return (
         <section id="produtos" 
-        className="bg-[url('../assets/images/home/productbg.png')] bg-cover bg-center flex flex-col items-center justify-center w-full">   
+        className="bg-[url('../assets/images/home/bgprodutos.png')] bg-cover flex flex-col items-center justify-center w-full pb-6">   
         <div className={`${athenevoyage.className}`}>
-        <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] pt-12 pb-4">
+        <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] pt-12 pb-6">
           Produtos
         </h1></div>
         <div className="flex justify-center items-center w-full">
-        <div className="carousel carousel-center max-w-xxl p-2 lg:space-x-16 space-x-8">
+        <div className="carousel carousel-center max-w-xxl p-2 lg:space-x-16 space-x-8 text-white text-center">
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="/para-voce">
-          <Image src={voce} className="hover:grayscale md:h-[340px] md:w-[210px] object-cover" alt="para você"/>
+          <Image src={voce} className="hover:grayscale md:h-[320px] md:w-[200px] lg:h-[350px] lg:w-[225px]" alt="para você"/>
           </a>
-          <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
+          <p className="py-8 text-[100%] max-w-[235px]">conheça todos os serviços pensados diretamente para você e suas necessidades</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="/para-sua-carreira">
-          <Image src={carreira} className="hover:grayscale md:h-[340px] md:w-[210px] object-covers" alt="carreira"/>
+          <Image src={carreira} className="hover:grayscale md:h-[320px] md:w-[200px] lg:h-[350px] lg:w-[225px]" alt="carreira"/>
           </a>
-          <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center"> Conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
+          <p className="py-8 text-[100%] max-w-[255px]">conheça os serviços para investir em sua carreira e desenvolver sua vida profissional</p>
         </div> 
         <div className="flex flex-col justify-center items-center carousel-item">
         <a href="para-sua-empresa">
-          <Image src={empresa} className="hover:grayscale md:h-[340px] md:w-[210px] object-cover" alt="empresa"/>
+          <Image src={empresa} className="hover:grayscale md:h-[320px] md:w-[200px] lg:h-[350px] lg:w-[225px]" alt="empresa"/>
           </a>
-          <p className="text-white py-8 text-[1.15rem] max-w-[215px] text-center">Conheça todas as soluções para o seu negócio e seus colaboradores</p>
+          <p className="py-8 text-[100%] max-w-[245px]">conheça todas as soluções para o seu negócio e seus colaboradores</p>
         </div> 
        </div>
         </div> 
