@@ -13,6 +13,7 @@ const ParaVoce = () => {
         <Heropv />
         <Consultoria />
         <AnaliseColoracao />
+        <Ebook />
       </section>
      </>
   );
