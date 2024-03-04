@@ -1,6 +1,7 @@
 import React from "react";
 import HeroConsultoria from "./HeroConsul";
 import SobreConsultoria from "./Sobre";
+import Beneficios from "./Beneficios";
 
 const ConsultoriaCompleta = () => {
    return (
@@ -9,6 +10,7 @@ const ConsultoriaCompleta = () => {
       <link rel="shortcut icon" href="./assets/icons/logoaba.png" type="image/x-icon"></link>
       <HeroConsultoria />
       <SobreConsultoria />
+      <Beneficios />
       </section>
      </>
   );
