@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="flex justify-around p-8">
               <div className="py-10">
                 <div className="pb-6">
-                  <Link href="/pinterest">
+                  <Link href="https://www.pinterest.es/carol_saibert/">
                   <Image src={pinterest} alt="" className="h-[30px] w-[30px]">
                   </Image>
                 </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <Link href="/pinterest">
+                <Link href="https://www.instagram.com/carol_saibert/">
                 <Image src={instagram} alt="" className="h-[30px] w-[30px]">
                   </Image>
                 </Link>
@@ -137,15 +137,15 @@ const Footer = () => {
               </Link>
               </div>
               <ul className="lg:hidden flex justify-center items-center text-white gap-10 md:gap-14 pt-6 pb-10 md:pb-4">
-              <Link href="pinterest">
+              <Link href="https://www.pinterest.es/carol_saibert/">
                 <Image src={pinterest} alt="" className="h-[25px] w-[25px]">
                 </Image>
               </Link>
-              <Link href="/https://wa.me/message/XCU4MVPJDQJVO1">
+              <Link href="https://wa.me/message/XCU4MVPJDQJVO1">
               <Image src={whatsapp} alt="redirecionar whatsapp" className="h-[25px] w-[25px]">
                 </Image>
               </Link>
-              <Link href="/instagram">
+              <Link href="https://www.instagram.com/carol_saibert/">
               <Image src={instagram} alt="" className="h-[25px] w-[25px]">
                 </Image>
               </Link>

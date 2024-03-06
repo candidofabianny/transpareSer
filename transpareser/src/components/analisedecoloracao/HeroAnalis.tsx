@@ -2,12 +2,12 @@ import React from "react";
 import { barcelony, orleymore } from "@/assets/fonts/fonts";
 import Link from "next/link";
 
-const HeroConsultoria = () => {
+const HeroAnalise = () => {
   
   return (
     <section id="home"
     className="flex flex-col justify-end w-full">  
-         <div className="bg-[#8B1E1E] md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center min-h-[500px]">
+         <div className="bg-white md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center min-h-[500px]">
               <div><div className={`${barcelony.className}`}>
               <p className="text-white text-[2.5rem] md:text-[3rem] pt-6">Consultoria Completa</p></div>
               <p className="text-white pt-8 pb-12 text-[1.28rem] px-6 md:max-w-[430px] lg:max-w-[670px]">texto introdutório sobre o transpareser e uma frase de impacto</p>
@@ -20,4 +20,4 @@ const HeroConsultoria = () => {
   );
 };
 
-export default HeroConsultoria;
+export default HeroAnalise;

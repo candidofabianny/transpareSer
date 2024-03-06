@@ -22,7 +22,7 @@ const Header = () => {
                 <Link href="/para-voce" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">para você</Link>
                 <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><Link href="/consultoria-completa">consultoria completa</Link></li>
-                  <li><a>análise de coloração</a></li>
+                  <li><Link href="/analise-de-coloracao">análise de coloração</Link></li>
                 </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
@@ -33,23 +33,19 @@ const Header = () => {
               </li>
           <li className={`${voigante.className}`}>
           <Link href="/" className="hover:text-bordo transition-all duration-300 ease-in-out text-[2.7rem]">
-              TranspareSer
-            </Link>
+              TranspareSer </Link>
           </li>
           <li>
           <Link href="/para-sua-empresa" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              para sua empresa
-            </Link>
+              para sua empresa </Link>
           </li>
           <li>
           <Link href="/contato" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              contato
-            </Link>
+              contato </Link>
           </li>
           <li>
           <Link href="/sobre" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">
-              sobre
-            </Link>
+              sobre </Link>
           </li>
         </ul> 
         </div> 
@@ -60,8 +56,7 @@ const Header = () => {
       <div className="flex items-center justify-center md:justify-around gap-6">
       <div className={`${voigante.className}`}>
           <Link href="/" className="text-white hover:text-bordo transition-all duration-300 ease-in-out text-[2.5rem]">
-              TranspareSer
-            </Link>
+              TranspareSer </Link>
         </div>
           <div className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}>
@@ -95,7 +90,7 @@ const Header = () => {
                 <Link href="/para-voce" className="border-b border-gray-400">para você</Link>
                 <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><Link href="/consultoria-completa">consultoria completa</Link></li>
-                  <li><a>análise de coloração</a></li>
+                  <li><Link href="analise-de-coloracao">análise de coloração</Link></li>
                 </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">

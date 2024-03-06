@@ -23,11 +23,11 @@ const HeroContato = () => {
                 <Image src={whatsapp} alt="redimensionar whatsapp" className="h-[35px] w-[35px] hover:scale-110">
                 </Image>
               </Link>
-        <Link href="pinterest">
+        <Link href="https://www.pinterest.es/carol_saibert/">
                 <Image src={pinterest} alt="redimensionar pinterest" className="h-[35px] w-[35px] hover:scale-110">
                 </Image>
               </Link>
-              <Link href="/instagram">
+              <Link href="https://www.instagram.com/carol_saibert/">
               <Image src={instagram} alt="redimensionar instagram" className="h-[35px] w-[35px] hover:scale-110">
                 </Image>
               </Link>
