@@ -5,8 +5,8 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section id="home"
-    className="bg-[url('../assets/images/home/bghome.jpeg')] md:bg-fill md:bg-cover md:bg-bottom flex flex-col items-center justify-center min-h-[655px] w-full">    
-        <div className="bg-black/60 min-h-[655px] w-full flex flex-col md:flex-row justify-center items-center">
+    className="bg-[url('../assets/images/home/bghome.jpeg')] md:bg-fill md:bg-cover md:bg-bottom flex flex-col items-center justify-center md:min-h-[580px] lg:min-h-[655px] w-full">    
+        <div className="bg-black/60 md:min-h-[580px] lg:min-h-[655px] w-full flex flex-col md:flex-row justify-center items-center">
         <div className={`${autography.className}`}>
           <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Descubra</h1>
         </div> 

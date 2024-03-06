@@ -1,8 +1,5 @@
 import React from "react";
-import top from "/src/assets/images/paravoce/top.png"
 import ebook from "/src/assets/images/paravoce/ebookdesafio.jpg"
-import buttonimg from "/src/assets/images/paravoce/buttonebook.png"
-import button from "/src/assets/images/paravoce/adquiraaqui.png"
 import Image from "next/image";
 import { catalinavillage } from "@/assets/fonts/fonts";
 import Link from "next/link";

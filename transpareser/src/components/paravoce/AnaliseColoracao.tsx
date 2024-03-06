@@ -12,7 +12,8 @@ const AnaliseColoracao = () => {
     className="bg-[#F9F9F9] bg-center bg-cover justify-center items-center flex flex-col w-full">    
          <Image
             alt="gallery"
-            src={cima} />
+            src={cima}
+            className="object-cover"/>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4">
         <div className={`${holispay.className}`}>
            <p className="md:hidden text-[3rem] text-[#8C0606] tracking-tight text-center pt-8 leading-none px-4">Análise de Coloração</p>
@@ -26,12 +27,12 @@ const AnaliseColoracao = () => {
             <Link href="/analise-de-coloracao">
           <Image
             alt=""
-            className="h-[410px] w-[280px] lg:w-[330px] md:h-[420px] lg:h-[480px] md:mr-20 -mt-10"
+            className="h-[410px] w-[265px] md:h-[400px] lg:w-[300px] lg:h-[460px] md:mr-20 -mt-10"
             src={analise} /></Link>
              </div>
              <Image
              alt=""
-             className="md:-mt-8 lg:-mt-12"
+             className="md:-mt-8 lg:-mt-12 object-cover"
              src={baixo} />
       </section>
   );
