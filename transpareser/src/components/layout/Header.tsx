@@ -52,7 +52,7 @@ const Header = () => {
     </nav>
     <div className="bg-white w-full h-[3px]"></div>  
     </header>
-    <header className="lg:hidden fixed w-full top-0 bg-stickyblack/5">
+    <header className="lg:hidden fixed w-full top-0 bg-stickyblack/70">
       <div className="flex items-center justify-center md:justify-around gap-6">
       <div className={`${voigante.className}`}>
           <Link href="/" className="text-white hover:text-bordo transition-all duration-300 ease-in-out text-[2.5rem]">

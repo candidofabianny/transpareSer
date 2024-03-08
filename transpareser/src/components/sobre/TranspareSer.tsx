@@ -3,8 +3,8 @@ import { voigante } from "@/assets/fonts/fonts";
 
 const TranspareSer = () => {
     return (
-<div className="bg-[url('../assets/images/sobre/bgtranspareser.png')] bg-cover bg-center items-center min-h-[520px] h-full w-full">
-        <div className="flex flex-col lg:flex-row gap-4 items-center md:items-start pt-40">
+<div className="bg-[url('../assets/images/sobre/herosobre.jpg')] bg-cover bg-center items-center min-h-[520px] h-full w-full">
+        <div className="bg-stickyblack/70 min-h-[520px] flex flex-col lg:flex-row gap-4 items-center md:items-start pt-40">
         <div className={`${voigante.className}`}>
          <h1 className="text-white text-[3rem] md:text-[3.7rem] md:pl-[70px] lg:pl-[180px]">A TranspareSer</h1>
          </div>
