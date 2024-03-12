@@ -7,8 +7,8 @@ import Link from "next/link";
 const Ebook = () => {
   return (
     <section id="home"
-    className="bg-[#1D1919] justify-center items-center flex flex-col w-full pb-12"> 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 pt-6 md:mt-0 text-white">
+    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full py-12"> 
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 pt-6 md:mt-0 text-black">
         <div className={`${catalinavillage.className}`}>
            <p className="md:hidden text-[2.7rem] text-center tracking-tighter">E-book desafio</p>
            <p className="md:hidden text-[2.7rem] text-center tracking-tighter leading-8 pb-4">da autestima</p>
@@ -22,7 +22,7 @@ const Ebook = () => {
             <Image
             alt="gallery"
             className="w-[250px] lg:w-[80%] lg:h-[400px] -mt-4 md:mr-8 lg:mr-14 rounded-md hover:opacity-40"
-            src={ebook} />
+            src={ebook}/>
             </Link>
              <p className="md:hidden text-[1rem] mx-8 max-w-[350px] text-center">Firme consigo mesma o compromisso destes 30 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
              </div>

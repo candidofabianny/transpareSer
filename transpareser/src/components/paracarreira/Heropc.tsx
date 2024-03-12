@@ -17,7 +17,7 @@ const Heropc = () => {
         </div> 
         <div className={`${athenevoyage.className}`}>
         <h1 className="text-white px-6 text-center leading-none tracking-tighter text-[1.8rem] md:text-[2.2rem] lg:text-[2.8rem] py-6">
-        Como posso te ajudar a transparecer seu estilo autêntico
+        Desenvolva sua vida profissional
         </h1>
         </div>
         </div>  

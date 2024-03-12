@@ -3,6 +3,7 @@ import Heropv from "./Heropv";
 import Consultoria from "./Consultoria";
 import AnaliseColoracao from "./AnaliseColoracao";
 import Ebook from "./E-book";
+import Psicoterapia from "./Psicoterapia";
 
 const ParaVoce = () => {
    return (
@@ -11,6 +12,7 @@ const ParaVoce = () => {
         <Heropv />
         <Consultoria />
         <AnaliseColoracao />
+        <Psicoterapia />
         <Ebook />
       </section>
      </>

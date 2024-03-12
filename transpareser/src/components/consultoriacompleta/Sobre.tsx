@@ -7,9 +7,9 @@ const SobreConsultoria = () => {
     <section id="home"
     className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-14">
-            <p className="md:hidden text-[0.8rem] px-14">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc. </p>
+            <p className="md:hidden text-[0.8rem] px-14">Aprenda a usar melhor o que já tem, a comprar com consciência e facilite sua rotina recebendo looks montados especialmente para você. Para você que:</p>
             <div className="md:pl-12 lg:pl-20 lg:max-w-[580px]">
-            <p className="hidden md:block text-[1.05rem] lg:text-[1.22rem] pb-8 lg:pb-12">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc. </p>
+            <p className="hidden md:block text-[1.05rem] lg:text-[1.22rem] pb-8 lg:pb-12">Aprenda a usar melhor o que já tem, a comprar com consciência e facilite sua rotina recebendo looks montados especialmente para você. Para você que:</p>
             <Image
             alt="gallery"
             className="md:hidden h-[505px] w-[310px] mx-auto mb-4 object-fill"
@@ -17,28 +17,27 @@ const SobreConsultoria = () => {
             <div className="collapse collapse-plus bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
             <input type="radio" name="my-accordion-3" /> 
             <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
-              Click to open this one and close others
+            Sempre acha que não tem o que vestir
             </div>
             <div className="collapse-content text-[0.8rem] lg:text-[1rem]"> 
-              <p>hello</p>
+              <p>não se sente segura escolhendo roupas ou acessórios</p>
             </div>
           </div>
           <div className="collapse collapse-plus bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
             <input type="radio" name="my-accordion-3" /> 
             <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
-              Click to open this one
-            </div>
+            Não conhece seu estilo </div>
             <div className="collapse-content text-[0.8rem] lg:text-[1rem]"> 
-              <p>hello</p>
+              <p>e não tem clareza sobre como sua imagem pessoal está afetando sua comunicação</p>
             </div>
           </div>
           <div className="collapse collapse-plus bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
             <input type="radio" name="my-accordion-3" /> 
             <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
-              Click to open this one and close others
+            Deseja se vestir de forma mais autêntica
             </div>
             <div className="collapse-content text-[0.8rem] lg:text-[1rem]"> 
-              <p>hello</p>
+              <p>com praticidade e sem estresse</p>
             </div>
           </div>          
              </div>

@@ -16,7 +16,7 @@ const HeroContato = () => {
           <div className={`${athenevoyage.className}`}>
           <h1 className="text-[3.15rem] md:text-[3.3rem] lg:text-[4rem] text-center md:text-left md:ml-8 lg:ml-20 md:-mt-12 leading-9">Entre em contato</h1>
          </div>
-          <p className="hidden md:block text-left text-[1.5rem] lg:text-[1.7rem] lg:max-w-[570px] ml-8 lg:ml-20 pr-12 pt-8">texto introdutório sobre o transpareser e uma frase de impacto</p>
+          <p className="hidden md:block text-left text-[1.5rem] lg:text-[1.7rem] lg:max-w-[570px] ml-8 lg:ml-20 pr-12 pt-8">Conheça nossas redes sociais ou entre em contato</p>
        </div>
         <ul className="flex justify-center items-center text-white gap-12 lg:gap-16 pt-6 pb-10 md:pb-4 md:mr-8 lg:mr-12 md:w-2/5">
         <Link href="https://wa.me/message/XCU4MVPJDQJVO1">
@@ -36,7 +36,7 @@ const HeroContato = () => {
                 </Image>
               </Link>
             </ul>
-       <p className="md:hidden text-center text-[1.5rem] mx-4">texto introdutório sobre o transpareser e uma frase de impacto</p>
+       <p className="md:hidden text-center text-[1.5rem] mx-4">Conheça nossas redes sociais ou entre em contato</p>
         </div>     
       </section>
   );
