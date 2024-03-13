@@ -11,7 +11,7 @@ const HeroAnalise = () => {
          <div className="flex flex-col justify-center items-start text-center">
               <div><div className={`${holispay.className}`}>
               <p className="text-[#8C0606] text-[2.7rem] md:text-[3rem] lg:text-[3.3rem] pt-28 md:pt-2 leading-10">Análise de Coloração</p></div>
-              <p className="text-black px-8 py-12 md:py-16 text-[1.3rem] md:max-w-[500px]">texto introdutório sobre o transpareser e uma frase de impacto</p>
+              <p className="text-black px-8 py-12 md:py-16 text-[1.3rem] md:max-w-[500px]">conheça suas cores, eleve sua imagem</p>
               <div className={`${orleymore.className}`}>
               <Link className="bg-[#BD4646] transition ease-in-out rounded-full text-white text-[1.55rem] px-10 py-4 place-self-center hover:bg-[#7E0505]" href="https://wa.me/message/XCU4MVPJDQJVO1">Agende a sua!</Link>
               </div>

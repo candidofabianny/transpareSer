@@ -1,5 +1,8 @@
 import React from "react";
-import dum from "/src/assets/images/consultoria/depoConsultoria (1).jpeg"
+import dum from "/src/assets/images/consultoria/depoimentotres.jpeg"
+import dois from "/src/assets/images/consultoria/depoimentoum.jpeg"
+import dtres from "/src/assets/images/consultoria/depoimentodois.jpeg"
+import dquatro from "/src/assets/images/consultoria/depoimentoquatro.jpeg"
 import Image from "next/image";
 import { athenevoyage } from "@/assets/fonts/fonts";
 
@@ -12,17 +15,16 @@ const Depoimento = () => {
             <p className="text-[2.8rem] leading-9 text-center">O que já foi entregue</p>
            </div>
            <div className="flex flex-col md:flex-row items-center justify-center">
-            <Image alt="" src={dum} className="w-[80%] md:w-[100%] mb-8"> 
+            <Image alt="" src={dum} className="w-[70%] md:w-[60%] mb-8"> 
             </Image>
-            <p className="text-[1rem] lg:text-[1.1rem]  text-center md:text-left px-8 md:max-w-[400px] lg:max-w-[500px] md:-mt-5">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha. texto sobre o curso que está aberto, o que está incluso, etc.</p>
-              </div>
-             <div className="flex flex-col md:flex-row items-center justify-center md:items-start lg:gap-4">
-              <Image alt="" src={dum} className="w-[50%] md:w-[40%] my-8 md:-mt-5"> 
+            </div>
+             <div className="flex flex-col md:flex-row items-center justify-center md:items-start gap-6 lg:gap-12">
+              <Image alt="" src={dquatro} className="w-[40%] md:w-[30%] my-8 md:-mt-5"> 
             </Image>
-            <p className="text-[0.7rem] lg:text-[0.9rem] text-center md:text-left px-14 md:px-4 md:max-w-[240px] lg:max-w-[300px] md:pt-4">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha.</p>
-            <Image alt="" src={dum} className="w-[50%] md:w-[40%] my-8 md:-mt-5"> 
-            </Image>
-            <p className="text-[0.7rem] lg:text-[0.9rem] text-center md:text-left px-14 md:px-4 md:max-w-[240px] lg:max-w-[300px] md:pt-4">texto sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui. Mais texto e mais uma linha.</p>
+            <Image alt="" src={dtres} className="w-[30%] md:w-[20%] my-8 md:-mt-5"> 
+              </Image>
+              <Image alt="" src={dois} className="w-[45%] md:w-[35%] my-8 md:-mt-5"> 
+              </Image>
              </div>
              </div>
       </section>
