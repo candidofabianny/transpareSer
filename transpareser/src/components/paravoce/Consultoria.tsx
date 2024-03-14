@@ -6,8 +6,7 @@ import Link from "next/link";
 
 const Consultoria = () => {
   return (
-    <section id="home"
-    className="bg-[#181515] justify-center items-center flex flex-col w-full">    
+    <section className="bg-[#181515] justify-center items-center flex flex-col w-full">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-8 text-white pt-14">
         <div className={`${barcelony.className}`}>
            <p className="md:hidden text-[2.4rem] tracking-tight text-center">Consultoria Completa</p>

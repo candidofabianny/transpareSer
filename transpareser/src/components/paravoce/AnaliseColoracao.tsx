@@ -8,8 +8,7 @@ import Link from "next/link";
 
 const AnaliseColoracao = () => {
   return (
-    <section id="home"
-    className="bg-[#F9F9F9] bg-center bg-cover justify-center items-center flex flex-col w-full">    
+    <section className="bg-[#F9F9F9] bg-center bg-cover justify-center items-center flex flex-col w-full">    
          <Image
             alt="gallery"
             src={cima}

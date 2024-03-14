@@ -3,8 +3,7 @@ import { athenevoyage, autography } from "@/assets/fonts/fonts";
 
 const Heropv = () => {
   return (
-    <section id="home"
-    className="bg-[url('../assets/images/paravoce/paravocebg.jpg')] bg-cover bg-center flex flex-col items-center justify-center min-h-[655px] md:min-h-[540px] lg:min-h-[620px] w-full">    
+    <section className="bg-[url('../assets/images/paravoce/paravocebg.jpg')] bg-cover bg-center flex flex-col items-center justify-center min-h-[655px] md:min-h-[540px] lg:min-h-[620px] w-full">    
         <div className="bg-black/60 min-h-[665px] md:min-h-[540px] lg:min-h-[620px] w-full flex flex-col md:flex-row items-center justify-center">
         <div className={`${autography.className}`}>
           <h1 className="text-[3.5rem] text-white text-left leading-7 pb-6 pt-28 md:hidden">Para Você</h1>

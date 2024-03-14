@@ -3,8 +3,7 @@ import { holispay } from "@/assets/fonts/fonts";
 
 const Beneficios = () => {
   return (
-    <section id="beneficios"
-    className="bg-[#1F1A1A] flex flex-col justify-center items-center w-full min-h-[580px] lg:min-h-[600px] pb-10">  
+    <section className="bg-[#1F1A1A] flex flex-col justify-center items-center w-full min-h-[580px] lg:min-h-[600px] pb-10">  
         <div className={`${holispay.className}`}>
         <p className="text-[2.8rem] md:text-[3rem] text-white text-center px-2 py-12">Se você...</p>
         </div>

@@ -2,13 +2,11 @@ import React from "react";
 import totalframe from "/src/assets/images/home/centergallery.png"
 import esquerda from "/src/assets/images/home/esquerdagallery.png"
 import direita from "/src/assets/images/home/direitogallery.png"
-
 import Image from "next/image";
 
 const Galeria = () => {
   return (
-    <section id="home"
-    className="bg-[#1D1A1A] justify-end items-end flex flex-col w-full">    
+    <section className="bg-[#1D1A1A] justify-end items-end flex flex-col w-full">    
         <div className="w-full flex flex-row justify-center items-end">
         <Image
           alt="gallery"

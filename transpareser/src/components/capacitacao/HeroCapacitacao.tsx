@@ -1,18 +1,13 @@
 import React from "react";
-import { athenevoyage } from "@/assets/fonts/fonts";
-import pinterest from 'src/assets/images/home/pinterest.png'
-import gmail from 'src/assets/images/contato/gmail.png'
-import instagram from 'src/assets/images/home/instagram.png'
-import whatsapp from 'src/assets/images/contato/whatsapp.png'
-import Link from "next/link";
-import Image from "next/image";
+import { catalinavillage } from "@/assets/fonts/fonts";
 
 const HeroCapacitacao = () => {
   return (
-    <section id="home"
-    className="bg-[url('../assets/images/contato/bgcontato.jpg')] bg-cover bg-left-top lg:bg-bottom flex flex-col items-center justify-center min-h-[605px] md:min-h-[505px] w-full">    
+    <section className="bg-[url('../assets/images/paracarreira/bgcarreira.jpg')] bg-cover bg-start flex flex-col items-center justify-center min-h-[605px] md:min-h-[505px] w-full">    
         <div className="bg-black/50 min-h-[605px] md:min-h-[505px] h-full w-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-0 text-white py-6">
-          
+        <div className={`${catalinavillage.className}`}>
+           <p className="text-[2.2rem] tracking-tight text-left px-12">CAPACITACAO EM ATENDIMENTO HUMANIZADO</p>
+           </div>
         </div>     
       </section>
   );

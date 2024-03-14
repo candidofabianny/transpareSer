@@ -4,8 +4,7 @@ import Image from "next/image";
 
 const SobreConsultoria = () => {
   return (
-    <section id="home"
-    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
+    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-14">
             <p className="md:hidden text-[0.8rem] px-14">Aprenda a usar melhor o que já tem, a comprar com consciência e facilite sua rotina recebendo looks montados especialmente para você. Para você que:</p>
             <div className="md:pl-12 lg:pl-20 lg:max-w-[580px]">

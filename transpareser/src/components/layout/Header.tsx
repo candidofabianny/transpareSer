@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import Headroom from "react-headroom";
-import { athenevoyage, galabiyah, voigante } from "@/assets/fonts/fonts";
+import {galabiyah, voigante } from "@/assets/fonts/fonts";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -28,7 +28,7 @@ const Header = () => {
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-sua-carreira" className="font-loving-ambros hover:text-bordo transition-all duration-300 ease-in-out text-[1.08rem]">para sua carreira</Link>
                 <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>capacitação em atentimento humanizado</a></li>
+                  <li><Link href="/capacitacao-atendimento-humanizado">capacitação em atentimento humanizado</Link></li>
                 </ul>
               </li>
           <li className={`${voigante.className}`}>
@@ -90,13 +90,13 @@ const Header = () => {
                 <Link href="/para-voce" className="border-b border-gray-400">para você</Link>
                 <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><Link href="/consultoria-completa">consultoria completa</Link></li>
-                  <li><Link href="analise-de-coloracao">análise de coloração</Link></li>
+                  <li><Link href="/analise-de-coloracao">análise de coloração</Link></li>
                 </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-sua-carreira" className="border-b border-gray-400">para sua carreira</Link>
                 <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>capacitação em atentimento humanizado</a></li>
+                  <li><Link href="/capacitacao-atendimento-humanizado">capacitação em atentimento humanizado</Link></li>
                 </ul>
               </li>
               <li className="border-b border-gray-400 my-8">

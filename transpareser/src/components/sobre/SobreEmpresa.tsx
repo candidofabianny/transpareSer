@@ -4,8 +4,7 @@ import Image from "next/image";
 
 const SobreEmpresa = () => {
   return (
-    <section id="home"
-    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
+    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <p className="md:hidden text-[0.8rem] px-14">A TranspareSer surgiu da necessidade de dividir apoio e conhecimento com mulheres que desejam desenvolver sua própria imagem pessoal ou a de suas clientes de forma profunda e autêntica.</p>
             <div className="hidden md:block pl-12 lg:pl-20 lg:max-w-[580px]">

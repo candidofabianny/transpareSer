@@ -6,8 +6,7 @@ import Link from "next/link";
 
 const Capacitacao = () => {
   return (
-    <section id="home"
-    className="bg-[#181515] justify-center items-center flex flex-col w-full py-10 md:py-16">    
+    <section className="bg-[#181515] justify-center items-center flex flex-col w-full py-10 md:py-16">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-10 text-white">
         <div className={`${catalinavillage.className}`}>
            <p className="md:hidden text-[2.2rem] tracking-tight text-left px-12">CAPACITACAO EM ATENDIMENTO HUMANIZADO</p>

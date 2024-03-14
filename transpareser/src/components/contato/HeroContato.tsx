@@ -9,8 +9,7 @@ import Image from "next/image";
 
 const HeroContato = () => {
   return (
-    <section id="home"
-    className="bg-[url('../assets/images/contato/bgcontato.jpg')] bg-cover bg-left-top lg:bg-bottom flex flex-col items-center justify-center min-h-[605px] md:min-h-[505px] w-full">    
+    <section className="bg-[url('../assets/images/contato/bgcontato.jpg')] bg-cover bg-left-top lg:bg-bottom flex flex-col items-center justify-center min-h-[605px] md:min-h-[505px] w-full">    
         <div className="bg-black/50 min-h-[605px] md:min-h-[505px] h-full w-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-0 text-white py-6">
           <div className="md:w-3/5">
           <div className={`${athenevoyage.className}`}>

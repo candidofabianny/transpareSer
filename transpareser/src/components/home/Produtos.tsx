@@ -9,8 +9,7 @@ import empresa from "/src/assets/images/home/paraempresa.png"
 
 const Produtos = () => {
     return (
-        <section id="produtos" 
-        className="bg-[url('../assets/images/home/bgprodutos.png')] bg-cover flex flex-col items-center justify-center w-full pb-12">   
+        <section className="bg-[url('../assets/images/home/bgprodutos.png')] bg-cover flex flex-col items-center justify-center w-full pb-12">   
         <div className={`${athenevoyage.className}`}>
         <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] pt-12 pb-6">
           Produtos

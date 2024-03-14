@@ -4,8 +4,7 @@ import Link from "next/link";
 
 const BannerEmpresa = () => {
   return (
-    <section id="banner"
-    className="bg-[url('../assets/images/sobre/transpareserbg.png')] bgfixed bg-start bg-cover bg-fixed flex flex-col items-center justify-center min-h-[177px] md:min-h-[226px] w-full">    
+    <section className="bg-[url('../assets/images/sobre/transpareserbg.png')] bgfixed bg-start bg-cover bg-fixed flex flex-col items-center justify-center min-h-[177px] md:min-h-[226px] w-full">    
         <div className="flex flex-col items-center justify-center py-4">
         <div className={`${voigante.className}`}>
         <Link href="/" className="text-white text-[1.8rem] md:text-[2.4rem] lg:text-[2.8rem] px-2 pb-2 md:pb-4 lg:pb-6 text-center leading-8">

@@ -7,8 +7,7 @@ import Link from "next/link";
 
 const Metodo = () => {
   return (
-    <section id="home"
-    className="bg-[#181515] justify-center items-center flex flex-col w-full -mt-1 py-16">    
+    <section className="bg-[#181515] justify-center items-center flex flex-col w-full -mt-1 py-16">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-8 text-white">
         <div className={`${against.className}`}>
            <p className="md:hidden text-[2.3rem] tracking-tight text-center">Metodo TranspareSer</p>

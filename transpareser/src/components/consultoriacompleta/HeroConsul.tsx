@@ -5,8 +5,7 @@ import Link from "next/link";
 const HeroConsultoria = () => {
   
   return (
-    <section id="home"
-    className="flex flex-col justify-end w-full">  
+    <section className="flex flex-col justify-end w-full">  
          <div className="bg-[#8B1E1E] md:flex md:flex-row items-center justify-center pt-28 md:pt-12 lg:pt-24 text-center min-h-[500px]">
               <div><div className={`${barcelony.className}`}>
               <p className="text-white text-[2.5rem] md:text-[3rem] pt-6">Consultoria Completa</p></div>

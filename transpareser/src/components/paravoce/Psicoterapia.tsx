@@ -1,5 +1,4 @@
 import React from "react";
-import garantia from "/src/assets/images/paravoce/garanta.png"
 import button from "/src/assets/images/paravoce/psicoterapia.png"
 import Image from "next/image";
 import { orleymore } from "@/assets/fonts/fonts";
@@ -7,8 +6,7 @@ import Link from "next/link";
 
 const Psicoterapia = () => {
   return (
-    <section id="home"
-    className="bg-[#1D1919] justify-center items-center flex flex-col w-full -mt-1 pb-12">    
+    <section className="bg-[#1D1919] justify-center items-center flex flex-col w-full -mt-1 pb-12">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-8 text-white pt-4">
         <div className={`${orleymore.className}`}>
            <p className="md:hidden text-[2.7rem] text-center mt-4">Psicoterapia</p>

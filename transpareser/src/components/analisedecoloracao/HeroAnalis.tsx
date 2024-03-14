@@ -6,8 +6,7 @@ import imagem from "src/assets/images/analise/heroanalise.jpg";
 
 const HeroAnalise = () => {
   return (
-    <section id="home"
-    className="flex flex-col md:flex-row justify-center items-center w-full bg-[#F9F9F9] min-h-[680px] md:gap-4 lg:gap-14">  
+    <section className="flex flex-col md:flex-row justify-center items-center w-full bg-[#F9F9F9] min-h-[680px] md:gap-4 lg:gap-14">  
          <div className="flex flex-col justify-center items-start text-center">
               <div><div className={`${holispay.className}`}>
               <p className="text-[#8C0606] text-[2.7rem] md:text-[3rem] lg:text-[3.3rem] pt-28 md:pt-2 leading-10">Análise de Coloração</p></div>

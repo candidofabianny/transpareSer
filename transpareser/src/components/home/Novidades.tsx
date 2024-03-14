@@ -7,8 +7,7 @@ import imga from "/src/assets/images/home/ladoa.png";
 
 const Novidades = () => {
   return (
-    <section id="home"
-    className="bg-[#F9F9F9] bg-cover bg-center flex flex-col items-center justify-center pb-6 w-full">    
+    <section className="bg-[#F9F9F9] bg-cover bg-center flex flex-col items-center justify-center pb-6 w-full">    
         <div className={`${athenevoyage.className}`}>
         <h1 className="text-black text-center leading-none tracking-tighter text-[2.9rem] md:text-[3.1rem] pt-12 pb-4">
           Novidades
@@ -33,8 +32,7 @@ const Novidades = () => {
          <p className="text-protonred pb-6 text-[0.9rem] md:text-[1rem] text-end">texto sobre sobre sobre sobresobre sobre sobre o curso que está aberto, o que está incluso, etc. Todas as informações vão estar aqui.</p>
          <p className="pb-6 text-[0.9rem] md:text-[1rem] text-end">texto sobre o curso que está aberto, sobre sobre sobre sobre sobre sobre o que está incluso, etc. Todas as informações vão estar aqui.</p>
       </div>
-   </div>
-           
+   </div> 
       </section>
   );
 };

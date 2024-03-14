@@ -1,14 +1,7 @@
 import type { Metadata } from 'next'
-import { Rosarivo } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-
-const rosarivo = Rosarivo({ subsets: ["latin"],
-display: "swap",
-variable: "--font-rosarivo",
-weight: "400"
-})
 
 export const metadata: Metadata = {
   title: 'TranspareSer',
@@ -22,8 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
-      className={`${rosarivo.className}`}>
+      lang="en">
         <body>
           <Header />
           {children}

@@ -6,8 +6,7 @@ import Link from "next/link";
 
 const Ebook = () => {
   return (
-    <section id="home"
-    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full py-12"> 
+    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full py-12"> 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 pt-6 md:mt-0 text-black">
         <div className={`${catalinavillage.className}`}>
            <p className="md:hidden text-[2.7rem] text-center tracking-tighter">E-book desafio</p>

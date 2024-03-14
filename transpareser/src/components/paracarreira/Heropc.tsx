@@ -3,8 +3,7 @@ import { athenevoyage, autography } from "@/assets/fonts/fonts";
 
 const Heropc = () => {
   return (
-    <section id="home"
-    className="bg-[url('../assets/images/paracarreira/bgcarreira.jpeg')] bg-cover bg-bottom flex flex-col items-center justify-center min-h-[605px] w-full">    
+    <section className="bg-[url('../assets/images/paracarreira/bgcarreira.jpeg')] bg-cover bg-bottom flex flex-col items-center justify-center min-h-[605px] w-full">    
          <div className="bg-black/70 min-h-[605px] w-full flex flex-col md:flex-row items-center justify-center">
         <div className={`${autography.className}`}>
           <h1 className="text-[3.8rem] text-white text-left leading-7 pb-6 pt-28 md:hidden px-8 text-center">Para sua carreira</h1>

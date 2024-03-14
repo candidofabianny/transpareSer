@@ -7,8 +7,7 @@ import Link from "next/link";
 
 const Masterclass = () => {
   return (
-    <section id="home"
-    className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full -mt-1 py-16">    
+    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full -mt-1 py-16">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-4 lg:gap-2 text-black">
         <div className={`${premint.className}`}>
            <p className="md:hidden text-[3.3rem] tracking-tight text-center">Masterclass</p>
