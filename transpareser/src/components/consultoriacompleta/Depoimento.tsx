@@ -11,10 +11,10 @@ const Depoimento = () => {
     <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full pt-16 pb-12 md:pb-12">    
         <div className="flex flex-col items-center justify-center gap-4 md:gap-12 lg:gap-16">
           <div className={`${athenevoyage.className}`}>
-            <p className="text-[2.8rem] leading-9 text-center pb-8">O que já foi entregue</p>
+            <p className="text-[2.8rem] leading-9 text-center pb-8 md:pb-2">O que já foi entregue</p>
            </div>
            <div className="flex flex-col md:flex-row items-center justify-center">
-            <Image alt="" src={dum} className="w-[85%] md:w-[60%] mb-8"> 
+            <Image alt="" src={dum} className="w-[85%] md:w-[50%] mb-8"> 
             </Image>
             </div>
              <div className="flex flex-col md:flex-row items-center justify-center md:items-start gap-6 lg:gap-12">

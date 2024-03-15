@@ -2,6 +2,7 @@ import React from "react";
 import HeroAnalise from "./HeroAnalis";
 import Beneficios from "./Beneficios";
 import Naoperca from "./NaoPerca";
+import Depoimento from "./Depoimento";
 
 const AnalisedeColoracao = () => {
    return (
@@ -10,6 +11,7 @@ const AnalisedeColoracao = () => {
       <HeroAnalise />   
       <Beneficios /> 
       <Naoperca />
+      <Depoimento />
       </section>
      </>
   );
