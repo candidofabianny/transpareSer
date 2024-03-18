@@ -15,7 +15,7 @@ const Ebook = () => {
            <div className="hidden md:block px-6 lg:px-12 md:max-w-[420px] lg:max-w-[580px]">
             <div className={`${catalinavillage.className}`}>
             <p className="text-[3rem] lg:text-[3.9rem] text-left tracking-tighter leading-none pb-4">E-book Transpareser</p></div>
-            <p className="text-[0.95rem] lg:text-[1.16rem] text-left pr-4 py-4">Firme consigo mesma o compromisso destes 30 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
+            <p className="text-[0.95rem] lg:text-[1.16rem] text-left pr-4 py-4">Firme consigo mesma o compromisso destes 20 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
             </div> 
             <Link href="https://pay.hotmart.com/P91231380B">
             <Image
@@ -23,7 +23,7 @@ const Ebook = () => {
             className="w-[250px] lg:w-[80%] lg:h-[400px] -mt-4 md:mr-8 lg:mr-14 rounded-md hover:opacity-40"
             src={ebook}/>
             </Link>
-             <p className="md:hidden text-[1rem] mx-8 max-w-[350px] text-center">Firme consigo mesma o compromisso destes 30 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
+             <p className="md:hidden text-[1rem] mx-8 max-w-[350px] text-center">Firme consigo mesma o compromisso destes 20 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
              </div>
       </section>
   );

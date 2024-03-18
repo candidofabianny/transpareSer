@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { athenevoyage } from "@/assets/fonts/fonts";
 import pinterest from 'src/assets/images/home/pinterest.png'
 import gmail from 'src/assets/images/contato/gmail.png'
@@ -8,6 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const HeroContato = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <section className="bg-[url('../assets/images/contato/bgcontato.jpg')] bg-cover bg-left-top lg:bg-bottom flex flex-col items-center justify-center min-h-[605px] md:min-h-[505px] w-full">    
         <div className="bg-black/50 min-h-[605px] md:min-h-[505px] h-full w-full flex flex-col md:flex-row items-center justify-center gap-12 md:gap-0 text-white py-6">
@@ -26,11 +28,15 @@ const HeroContato = () => {
                 <Image src={pinterest} alt="redimensionar pinterest" className="h-[35px] w-[35px] hover:scale-110">
                 </Image>
               </Link>
-              <Link href="https://www.instagram.com/carol_saibert/">
+              <li className="dropdown dropdown-hover my-4 md:my-5">
               <Image src={instagram} alt="redimensionar instagram" className="h-[35px] w-[35px] hover:scale-110">
                 </Image>
-              </Link>
-              <Link href="/email">
+                <ul className="bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><Link href="https://www.instagram.com/carol_saibert/">Carol Saibert</Link></li>
+                  <li><Link href="https://www.instagram.com/transpare_ser/">TranspareSer</Link></li>
+                </ul>
+              </li>
+              <Link href="mailto:psicocarolsaibert@gmail.com">
               <Image src={gmail} alt="" className="h-[40px] w-[40px] hover:scale-110">
                 </Image>
               </Link>

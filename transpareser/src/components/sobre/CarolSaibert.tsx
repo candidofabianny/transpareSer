@@ -5,10 +5,10 @@ import { voigante } from "@/assets/fonts/fonts";
 
 const CarolSaibert = () => {
   return (
-    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full py-14">    
+    <section className="bg-[#F9F9F9] w-full py-14">    
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <div className={`${voigante.className}`}>
-           <p className="md:hidden text-[3.33rem] tracking-tight">A Carol Saibert</p>
+           <p className="md:hidden text-[3.3rem] tracking-tight">A Carol Saibert</p>
            </div>
           <Image
             alt="gallery"
