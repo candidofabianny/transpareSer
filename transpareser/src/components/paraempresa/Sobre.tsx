@@ -14,17 +14,17 @@ const SobreEmpresa = () => {
             alt="gallery"
             className="md:hidden h-[505px] w-[310px] mx-auto mb-8 rounded-t-full object-cover"
             src={sobre} />
-            <Link href="https://wa.me/message/XCU4MVPJDQJVO1" className="collapse bg-base-200 hover:bg-[#8D2A2A] mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <Link href="https://wa.me/message/XCU4MVPJDQJVO1" className="collapse shadow-md bg-base-200 hover:bg-[#8D2A2A] mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
             <div className="collapse-title hover:text-white text-[1rem] lg:text-[1.1rem] font-medium">
             Autoestima e imagem pessoal 
-            </div>
+            </div>  
           </Link>      
-          <Link href="https://wa.me/message/XCU4MVPJDQJVO1" className="collapse bg-base-200 hover:bg-[#8D2A2A] mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+          <Link href="https://wa.me/message/XCU4MVPJDQJVO1" className="collapse shadow-md bg-base-200 hover:bg-[#8D2A2A] mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
             <div className="collapse-title hover:text-white text-[1rem] lg:text-[1.1rem] font-medium">
             Imagem pessoal e profissional
             </div>
           </Link>     
-          <Link href="https://wa.me/message/XCU4MVPJDQJVO1" className="collapse bg-base-200 hover:bg-[#8D2A2A] mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+          <Link href="https://wa.me/message/XCU4MVPJDQJVO1" className="collapse shadow-md bg-base-200 hover:bg-[#8D2A2A] mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
             <div className="collapse-title hover:text-white text-[1rem] lg:text-[1.1rem] font-medium">
             Saúde mental da mulher
             </div>

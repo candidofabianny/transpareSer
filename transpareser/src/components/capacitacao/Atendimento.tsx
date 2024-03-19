@@ -10,7 +10,7 @@ const rosarivo = Rosarivo({
 
 const Atendimento = () => {
   return (
-    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full min-h-[620px]">    
+    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full min-h-[620px] py-8">    
         <div className="h-full w-full flex flex-col items-center justify-center gap-8">
            <div className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-16 pb-8 lg:p-10">
            <div className="bg-[#971E1E] text-white text-center max-w-[220px] lg:max-w-[330px] lg:text-[110%] rounded-3xl pt-6">
