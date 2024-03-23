@@ -22,6 +22,7 @@ const Header = () => {
                 <ul className="bg-bordo font-rosarivo text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                   <li><Link href="/consultoria-completa">consultoria completa</Link></li>
                   <li><Link href="/analise-de-coloracao">análise de coloração</Link></li>
+                  <li><Link href="/psicoterapia">psicoterapia</Link></li>
                 </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
@@ -87,10 +88,6 @@ const Header = () => {
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-voce" className="border-b border-gray-400">para você</Link>
-                <ul className="hidden lg:block bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><Link href="/consultoria-completa">consultoria completa</Link></li>
-                  <li><Link href="/analise-de-coloracao">análise de coloração</Link></li>
-                </ul>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
                 <Link href="/para-sua-carreira" className="border-b border-gray-400">para sua carreira</Link>

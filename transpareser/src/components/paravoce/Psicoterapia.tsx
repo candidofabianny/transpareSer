@@ -11,21 +11,21 @@ const Psicoterapia = () => {
         <div className={`${orleymore.className}`}>
            <p className="md:hidden text-[2.7rem] text-center mt-4">Psicoterapia</p>
            </div>
-           <Link href="https://wa.me/message/XCU4MVPJDQJVO1">
+           <Link href="/psicoterapia">
           <Image
             alt="gallery"
             className="h-[370px] w-[280px] hover:opacity-40"
             src={button} /></Link>
             <p className="md:hidden text-[1.1rem] px-12 text-center">Atendimento psicológico para mulheres</p>
             <div className={`${orleymore.className}`}>
-              <Link className="md:hidden bg-[#D9D9D9] transition ease-in-out rounded-full text-black text-[1.55rem] px-8 py-3 place-self-center hover:bg-[#A10909] hover:text-white" href="https://wa.me/message/XCU4MVPJDQJVO1">Agende a sua!</Link>
+              <Link className="md:hidden bg-[#D9D9D9] transition ease-in-out rounded-full text-black text-[1.55rem] px-8 py-3 place-self-center hover:bg-[#A10909] hover:text-white" href="/psicoterapia">Saiba mais!</Link>
               </div>
             <div className="hidden md:block px-6 lg:px-12 md:max-w-[420px] lg:max-w-[580px]">
             <div className={`${orleymore.className}`}>
             <p className="text-[3.1rem] lg:text-[3.9rem] text-left">Psicoterapia</p></div>
             <p className="text-[1.05rem] lg:text-[1.16rem] text-left py-6 pb-10">Atendimento psicológico para mulheres</p>
             <div className={`${orleymore.className}`}>
-              <Link className="bg-[#D9D9D9] transition ease-in-out rounded-full text-black text-[1.55rem] px-8 py-3 place-self-center hover:bg-[#A10909] hover:text-white" href="https://wa.me/message/XCU4MVPJDQJVO1">Agende a sua!</Link>
+              <Link className="bg-[#D9D9D9] transition ease-in-out rounded-full text-black text-[1.55rem] px-8 py-3 place-self-center hover:bg-[#A10909] hover:text-white" href="/psicoterapia">Saiba mais!</Link>
               </div>
             </div> 
              </div>
