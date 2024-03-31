@@ -1,38 +1,57 @@
 import React from "react";
+import sobre from "/src/assets/images/capacitacao/carreiras.jpg"
+import Image from "next/image";
 import Link from "next/link";
-import { Rosarivo } from "next/font/google";
-import { orleymore } from "@/assets/fonts/fonts";
-
-const rosarivo = Rosarivo({
-  weight: '400',
-  subsets: ['latin'],
-})
 
 const Atendimento = () => {
   return (
-    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full min-h-[620px] py-8">    
-        <div className="h-full w-full flex flex-col items-center justify-center gap-8">
-           <div className="flex flex-col md:flex-row items-center justify-center gap-10 lg:gap-16 pb-8 lg:p-10">
-           <div className="bg-[#971E1E] text-white text-center max-w-[220px] lg:max-w-[330px] lg:text-[110%] rounded-3xl pt-6">
-           <div className={`${rosarivo.className}`}>
-           SEM ATENDIMENTO HUMANIZADO</div>
-           <ul className="bg-[#D9D9D9] text-black text-left list-disc rounded-3xl px-10 py-10 lg:text-[110%] lg:py-14 mt-6">
-            <li>insegurança no atendimento</li>
-            <li>faltas éticas (mesmo sem querer)</li>
-            <li>boas intenções sem apoio e informação para colocar em prática</li>
-            </ul></div>  
-            <div className="bg-[#8DFF92] text-black text-center max-w-[220px] lg:max-w-[330px] lg:text-[110%] rounded-3xl pt-6">
-           <div className={`${rosarivo.className}`}>
-           COM ATENDIMENTO HUMANIZADO</div>
-           <ul className="bg-[#D9D9D9] text-left rounded-3xl px-10 py-12 lg:text-[110%] lg:py-14 mt-6">
-            <li>alinhamento teórico e prático, atualizado e embasado, para oferecer um atendimento ético, acolhedor e que ajuda de verdade</li>
-            </ul></div>  
-           </div> 
-          <div className={`${orleymore.className}`}>
-              <Link className="bg-[#7E0505] transition ease-in-out rounded-full text-white text-[1.55rem] px-10 py-4 place-self-center hover:bg-[#BD4646]" href="https://wa.me/message/XCU4MVPJDQJVO1">Faça a sua!</Link>
-              </div>
+    <section className="bg-[#F9F9F9] justify-center items-center flex flex-col w-full py-10">  
+    <p className="text-[0.9rem] px-10 md:text-[1.05rem] lg:text-[1.1rem] pb-6">Se você quer aprender a oferecer um atendimento verdadeiramente humanizado e acolhedor, do tipo que encanta e fideliza sua cliente, precisa conhecer esta capacitação!</p>
+            <p className="text-[0.9rem] px-10 font-bold md:text-[1.05rem] lg:text-[1.1rem] pb-8 lg:pb-12">Indicada para:</p>
+              
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10 lg:gap-20">
+            <div className="md:pl-12 lg:pl-20 lg:max-w-[580px]">
+             <Image
+            alt="gallery"
+            className="md:hidden h-[300px] w-[300px] mx-auto mb-8 rounded-full object-cover"
+            src={sobre} />
+            <div className="collapse bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
+            Consultora de imagem
+            </div>
           </div>
-         </section>
+          <div className="collapse bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
+            Esteticista
+            </div>
+          </div>
+          <div className="collapse bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
+            Micropigmentadora
+            </div>
+          </div>
+          <div className="collapse bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
+            Designer de unhas, sobrancelhas ou cílios
+            </div>
+          </div>
+          <div className="collapse bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
+            Tatuadora
+            </div>
+          </div>
+          <div className="collapse bg-base-200 mb-4 max-w-[95%] md:max-w-[100%] ml-2 md:ml-0">
+            <div className="collapse-title text-[1rem] lg:text-[1.1rem] font-medium">
+            Profissionais de saúde e estética em geral, que trabalham atendendo mulheres
+            </div>
+          </div>
+           </div> 
+           <Image
+            alt="gallery"
+            className="hidden md:block mr-6 md:mr-14 h-[460px] w-[260px] lg:w-[300px] rounded-full object-cover"
+            src={sobre} />
+             </div>
+      </section>
   );
 };
 

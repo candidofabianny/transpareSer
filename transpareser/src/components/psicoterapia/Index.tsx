@@ -2,6 +2,7 @@ import React from "react";
 import Psicoterapia from "./Psicoterapia";
 import SobrePsico from "./Sobre";
 import SobrePsicoDois from "./SobrePsico";
+import Atendimento from "./Atendimento";
 
 const PsicoTerapia = () => {
    return (
@@ -10,6 +11,7 @@ const PsicoTerapia = () => {
       <Psicoterapia />
       <SobrePsico />
       <SobrePsicoDois />
+      <Atendimento />
       </section>
      </>
   );
