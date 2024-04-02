@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "instagram-web-api": "^2.2.2",
     "next": "14.0.1",
     "react": "^18",
