@@ -23,8 +23,11 @@ const Ebook = () => {
             className="w-[250px] lg:w-[80%] lg:h-[400px] -mt-4 md:mr-8 lg:mr-14 rounded-md hover:opacity-40"
             src={ebook}/>
             </Link>
-             <p className="md:hidden text-[1rem] mx-8 max-w-[350px] text-center">Firme consigo mesma o compromisso destes 20 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
+             <p className="md:hidden text-[1rem] mx-8 max-w-[350px] pb-10 text-center">Firme consigo mesma o compromisso destes 20 dias de ações práticas para começar uma revolução de amor próprio e autenticidade na vida e no vestir</p>
              </div>
+            <div className={`${catalinavillage.className}`}>
+              <Link className="md:hidden bg-[#7E0505] transition ease-in-out rounded-full text-white text-[1.55rem] px-8 py-4 place-self-center hover:bg-[#BD4646]" href="https://pay.hotmart.com/P91231380B?bid=1712100526137">Compre Aqui</Link>
+            </div>
       </section>
   );
 };

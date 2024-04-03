@@ -87,13 +87,10 @@ const Header = () => {
                 <a href="/">home</a>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
-                <Link href="/para-voce" className="border-b border-gray-400">para você</Link>
+                <a href="/para-voce" className="border-b border-gray-400">para você</a>
               </li>
               <li className="dropdown dropdown-hover my-4 md:my-5">
-                <Link href="/para-sua-carreira" className="border-b border-gray-400">para sua carreira</Link>
-                <ul className="hidden lg:block bg-stickyblack text-[1rem] dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><Link href="/capacitacao-atendimento-humanizado">capacitação em atentimento humanizado</Link></li>
-                </ul>
+                <a href="/para-sua-carreira" className="border-b border-gray-400">para sua carreira</a>
               </li>
               <li className="border-b border-gray-400 my-8">
                 <a href="para-sua-empresa">para sua empresa</a>

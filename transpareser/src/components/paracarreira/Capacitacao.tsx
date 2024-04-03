@@ -24,6 +24,9 @@ const Capacitacao = () => {
             <p className="text-[1.1rem] text-right pb-6 px-4">Para consultoras de imagem e demais profissionais ligadas à estética, como tatuadoras, micropigmentadoras, esteticistas, nutricionistas, fisioterapeutas e demais áreas</p>
             <p className="text-[1.1rem] text-left px-4">Aqui ensino como humanizar seus atendimentos, tendo como maiores benefícios a satisfação e fidelização das suas clientes!</p>
             </div>
+            <div className={`${catalinavillage.className}`}>
+              <Link className="md:hidden bg-[#7E0505] transition ease-in-out rounded-full text-white text-[1.5rem] px-8 py-2 place-self-center hover:bg-[#BD4646]" href="capacitacao-atendimento-humanizado">Saiba mais</Link>
+          </div>
              </div>
       </section>
   );
